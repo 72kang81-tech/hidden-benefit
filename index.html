@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="나에게 필요한 정부 지원금과 생활 혜택을 쉽고 빠르게 찾아보세요.">
+  <title>숨은혜택</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="brand" href="#top" aria-label="숨은혜택 처음으로"><span>숨은</span>혜택</a>
+      <a class="blog-link" href="https://300md72.com">블로그 보기</a>
+    </nav>
+    <div class="hero-copy" id="top">
+      <p class="eyebrow">몰라서 놓치는 혜택이 없도록</p>
+      <h1>나에게 필요한 혜택,<br><strong>쉽게 찾아보세요.</strong></h1>
+      <p class="intro">지원금 이름이나 ‘청년’, ‘주거’, ‘의료비’처럼 필요한 말을 입력해 보세요.</p>
+      <label class="search-box" for="search">
+        <span aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="예: 주거급여, 저소득 가구" autocomplete="off">
+        <button id="clear" type="button" aria-label="검색어 지우기">지우기</button>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="finder" aria-labelledby="finder-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">혜택 찾기</p>
+          <h2 id="finder-title">필요한 내용을 골라보세요</h2>
+        </div>
+        <p id="count" class="count" aria-live="polite"></p>
+      </div>
+
+      <div class="filters" aria-label="혜택 분야 선택">
+        <button class="chip active" type="button" data-filter="전체">전체</button>
+        <button class="chip" type="button" data-filter="주거">주거</button>
+        <button class="chip" type="button" data-filter="금융·생활비">금융·생활비</button>
+        <button class="chip" type="button" data-filter="의료비">의료비</button>
+        <button class="chip" type="button" data-filter="문화·여가">문화·여가</button>
+        <button class="chip" type="button" data-filter="창업·취업">창업·취업</button>
+      </div>
+
+      <div id="cards" class="cards"></div>
+      <div id="empty" class="empty" hidden>
+        <strong>검색 결과가 없습니다.</strong>
+        <p>다른 검색어를 입력하거나 ‘전체’를 눌러보세요.</p>
+      </div>
+    </section>
+
+    <section class="notice" aria-labelledby="notice-title">
+      <div class="notice-icon" aria-hidden="true">!</div>
+      <div>
+        <h2 id="notice-title">신청 전에 꼭 확인하세요</h2>
+        <p>지원 대상, 금액, 신청 기간은 변경될 수 있습니다. 신청 전 반드시 담당 정부기관의 공식 안내를 다시 확인해 주세요.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span>숨은</span>혜택</a>
+    <p>꼭 필요한 생활 혜택을 알기 쉽게 전합니다.</p>
+    <p class="fine">이 사이트는 정부기관이 운영하는 공식 사이트가 아닙니다.</p>
+  </footer>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
