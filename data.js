@@ -16,7 +16,7 @@ const benefits = [
     category: "주거",
     status: "현재 확인 가능",
     keywords: "월세 임차료 집수리 저소득 가구 주거급여",
-    blogUrl: "https://300md72.com/entry/월세-내는-저소득-가구를-위한-주거급여-대상·금액-확인",
+    blogUrl: "https://300md72.com/entry/2026-%EC%A3%BC%EA%B1%B0%EA%B8%89%EC%97%AC-%EB%8C%80%EC%83%81-%EC%A0%95%EB%A6%AC-1%EC%9D%B8-%EA%B0%80%EA%B5%AC-%EC%86%8C%EB%93%9D%EC%9D%B8%EC%A0%95%EC%95%A1-123%EB%A7%8C%EC%9B%90-%EC%9D%B4%ED%95%98",
     officialUrl: "https://www.bokjiro.go.kr/ssis-tbu/index.do"
   },
   {
@@ -156,7 +156,7 @@ const benefits = [
     category: "금융·생활비",
     status: "현재 확인 가능",
     keywords: "기초연금 노인 소득인정액",
-    blogUrl: "https://300md72.com/entry/2026-%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88-%EC%86%8C%EB%93%9D%EC%9D%B8%EC%A0%95%EC%95%A1-%EA%B8%B0%EC%A4%80%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC",
+    blogUrl: "https://300md72.com/entry/2026-%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88-%EB%8B%A8%EB%8F%85%EA%B0%80%EA%B5%AC-247%EB%A7%8C%EC%9B%90-%EA%B8%B0%EC%A4%80-%EC%8B%A0%EC%B2%AD-%EC%8B%9C%EA%B8%B0%EC%99%80-%EB%B0%A9%EB%B2%95",
     officialUrl: "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1488478&mid=a10503000000"
   },
   {
@@ -218,5 +218,25 @@ const benefits = [
     keywords: "재난적의료비 의료비지원 중증질환",
     blogUrl: "https://300md72.com/entry/2026-%EC%9E%AC%EB%82%9C%EC%A0%81%EC%9D%98%EB%A3%8C%EB%B9%84-%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85-%EB%8C%80%EC%83%81%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
     officialUrl: "https://www.nhis.or.kr/static/html/wbma/c/wbmac0222.html"
+  },
+  {
+    title: "2026 장애인연금 대상과 금액, 월 최대 43만9700원 총정리",
+    summary: "2026년 1월부터 기초급여가 34만9700원으로 오르며, 부가급여를 더한 월 최대 지급액이 43만9700원이 됩니다.",
+    target: "18세 이상 등록 중증장애인 중 본인·배우자 소득인정액이 선정기준액 이하인 사람(단독가구 140만원, 부부가구 224만원 이하)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "장애인연금 기초급여 부가급여 중증장애인 소득인정액",
+    blogUrl: "https://300md72.com/entry/2026-%EC%9E%A5%EC%95%A0%EC%9D%B8%EC%97%B0%EA%B8%88-%EB%8C%80%EC%83%81%EA%B3%BC-%EA%B8%88%EC%95%A1-%EC%9B%94-%EC%B5%9C%EB%8C%80-43%EB%A7%8C9700%EC%9B%90-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003249"
+  },
+  {
+    title: "2026년 교육급여 지원금액｜초 50만2천·중 69만9천·고 86만원",
+    summary: "교육활동지원비가 초등학생 50만2천원, 중학생 69만9천원, 고등학생 86만원으로 책정돼 전년 대비 평균 6% 인상됐습니다.",
+    target: "소득인정액이 2026년 기준중위소득 50% 이하인 가구의 초·중·고 재학생(부양의무자 기준 미적용)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "교육급여 교육활동지원비 저소득 초중고 교육비지원",
+    blogUrl: "https://300md72.com/entry/2026%EB%85%84-%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC-%EC%A7%80%EC%9B%90%EA%B8%88%EC%95%A1%EF%BD%9C%EC%B4%88-50%EB%A7%8C2%EC%B2%9C%C2%B7%EC%A4%91-69%EB%A7%8C9%EC%B2%9C%C2%B7%EA%B3%A0-86%EB%A7%8C%EC%9B%90",
+    officialUrl: "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001089"
   }
 ];
