@@ -69,6 +69,19 @@ h2 { margin:0; font-size:26px; line-height:1.3; letter-spacing:-.02em; color:var
 .empty { padding:64px 20px; border:1px dashed var(--line); border-radius:8px; text-align:center; color:var(--muted); }
 .empty strong { color:var(--ink); font-size:19px; }
 
+.promo { margin-top:20px; }
+.promo-card {
+  border:1px dashed var(--gold); border-radius:8px; padding:20px 22px; background:#FFFDF7;
+  display:flex; flex-direction:column; align-items:flex-start; gap:6px;
+}
+.promo-label {
+  font-family:"Roboto Mono",monospace; font-size:10.5px; font-weight:800; letter-spacing:.05em;
+  color:#8A6A16; background:#FCF3DA; padding:3px 9px; border-radius:4px;
+}
+.promo-card h3 { margin:6px 0 0; font-size:16px; color:var(--ink); }
+.promo-card p { margin:0; font-size:13.5px; color:var(--muted); }
+.promo-card .button { flex:none; margin-top:8px; min-width:170px; }
+
 .notice {
   margin-top:52px; display:flex; gap:16px; padding:22px 26px;
   border-radius:6px; background:var(--cream); border-left:3px solid var(--gold);

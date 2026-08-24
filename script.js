@@ -3,6 +3,7 @@ const search = document.querySelector("#search");
 const clear = document.querySelector("#clear");
 const count = document.querySelector("#count");
 const empty = document.querySelector("#empty");
+const promo = document.querySelector("#promo");
 const chips = [...document.querySelectorAll(".chip")];
 let selected = "전체";
 
@@ -10,6 +11,21 @@ function escapeHtml(value) {
   return value.replace(/[&<>'"]/g, character => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
   })[character]);
+}
+
+function renderPromo() {
+  const item = typeof promos !== "undefined" ? promos[selected] : null;
+  if (!item) { promo.hidden = true; promo.innerHTML = ""; return; }
+  promo.hidden = false;
+  const link = item.url
+    ? `<a class="button primary" href="${encodeURI(item.url)}">확인하러 가기 <span>→</span></a>`
+    : `<span class="button disabled" aria-disabled="true">준비 중</span>`;
+  promo.innerHTML = `<div class="promo-card">
+    <span class="promo-label">${escapeHtml(item.label)}</span>
+    <h3>${escapeHtml(item.title)}</h3>
+    <p>${escapeHtml(item.desc)}</p>
+    ${link}
+  </div>`;
 }
 
 function render() {
@@ -40,6 +56,8 @@ function render() {
       </div>
     </article>`;
   }).join("");
+
+  renderPromo();
 }
 
 chips.forEach(chip => chip.addEventListener("click", () => {
