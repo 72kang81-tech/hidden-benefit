@@ -216,7 +216,7 @@ const benefits = [
     category: "의료비",
     status: "현재 확인 가능",
     keywords: "재난적의료비 의료비지원 중증질환",
-    blogUrl: "https://300md72.com/entry/2026-%EC%9E%AC%EB%82%9C%EC%A0%81%EC%9D%98%EB%A3%8C%EB%B9%84-%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85-%EB%8C%80%EC%83%81%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
+    blogUrl: "https://300md72.com/entry/2026-%EC%9E%AC%EB%82%9C%EC%A0%81%EC%9D%98%EB%A3%8C%EB%B9%84-%EC%A7%80%EC%9B%90-%EB%8C%80%EC%83%81-%EC%9D%98%EB%A3%8C%EB%B9%84-5080-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
     officialUrl: "https://www.nhis.or.kr/static/html/wbma/c/wbmac0222.html"
   },
   {
@@ -238,5 +238,75 @@ const benefits = [
     keywords: "교육급여 교육활동지원비 저소득 초중고 교육비지원",
     blogUrl: "https://300md72.com/entry/2026%EB%85%84-%EA%B5%90%EC%9C%A1%EA%B8%89%EC%97%AC-%EC%A7%80%EC%9B%90%EA%B8%88%EC%95%A1%EF%BD%9C%EC%B4%88-50%EB%A7%8C2%EC%B2%9C%C2%B7%EC%A4%91-69%EB%A7%8C9%EC%B2%9C%C2%B7%EA%B3%A0-86%EB%A7%8C%EC%9B%90",
     officialUrl: "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001089"
+  },
+  {
+    title: "2026 발달재활서비스 월 바우처 대상과 본인부담금",
+    summary: "18세 미만 등록장애아동의 언어·감각·운동 재활치료 비용 일부를 바우처로 지원합니다.",
+    target: "18세 미만 등록장애아동 중 기준중위소득 180% 이하 가구(9세 미만은 장애 미등록도 전문의 의뢰서로 예외 신청 가능)",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "발달재활서비스 장애아동바우처 언어치료지원 감각통합치료",
+    blogUrl: "https://300md72.com/entry/2026-%EB%B0%9C%EB%8B%AC%EC%9E%AC%ED%99%9C%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9B%94-%EB%B0%94%EC%9A%B0%EC%B2%98-%EB%8C%80%EC%83%81%EA%B3%BC-%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88",
+    officialUrl: "https://www.mohw.go.kr/menu.es?mid=a10710060600"
+  },
+  {
+    title: "2026 장애수당 월 6만원 대상과 복지로 신청방법",
+    summary: "장애인연금 대상이 아닌 비중증 등록장애인 중 기초생활수급자·차상위계층에게 매달 지급하는 수당입니다.",
+    target: "18세 이상 등록장애인 중 장애인연금법상 중증장애인이 아닌 기초생활수급자·차상위계층",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "장애수당 비중증장애인 복지로신청 월6만원지원금",
+    blogUrl: "https://300md72.com/entry/2026-%EC%9E%A5%EC%95%A0%EC%88%98%EB%8B%B9-%EC%9B%94-6%EB%A7%8C%EC%9B%90-%EB%8C%80%EC%83%81%EA%B3%BC-%EB%B3%B5%EC%A7%80%EB%A1%9C-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
+    officialUrl: "https://www.mohw.go.kr/menu.es?mid=a10710030200"
+  },
+  {
+    title: "2026 긴급복지지원 생계비 대상과 129 신청방법",
+    summary: "실직·폐업·질병·화재 등 갑작스러운 위기 상황에서 정기 모집 없이 바로 생계비를 지원받을 수 있는 제도입니다.",
+    target: "실직·폐업·중한 질병·화재 등 위기 사유로 생계가 곤란한 저소득 가구(2026년 기준중위소득 75% 이하)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "긴급복지지원 129신청 긴급생계비 위기가구지원금",
+    blogUrl: "https://300md72.com/entry/2026-%EA%B8%B4%EA%B8%89%EB%B3%B5%EC%A7%80%EC%A7%80%EC%9B%90-%EC%83%9D%EA%B3%84%EB%B9%84-%EB%8C%80%EC%83%81%EA%B3%BC-129-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
+    officialUrl: "https://www.mohw.go.kr/menu.es?mid=a10708010100"
+  },
+  {
+    title: "2026 상병수당 시범사업, 전국이 아니라 14개 지역입니다",
+    summary: "업무 외 질병·부상으로 일을 하지 못하는 취업자에게 최대 150일간 수당을 지급하는 제도로, 전국이 아닌 14개 시범지역에서만 운영됩니다.",
+    target: "14개 시범지역 거주 또는 근무 취업자, 만 15세 이상 65세 미만으로 건강보험·고용보험·산재보험 가입자 또는 일정 요건의 자영업자",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "상병수당 상병수당시범사업 아프면쉴권리 건강보험공단",
+    blogUrl: "https://300md72.com/entry/2026-%EC%83%81%EB%B3%91%EC%88%98%EB%8B%B9-%EC%8B%9C%EB%B2%94%EC%82%AC%EC%97%85-%EC%A0%84%EA%B5%AD%EC%9D%B4-%EC%95%84%EB%8B%88%EB%9D%BC-14%EA%B0%9C-%EC%A7%80%EC%97%AD%EC%9E%85%EB%8B%88%EB%8B%A4",
+    officialUrl: "https://www.mohw.go.kr/menu.es?mid=a10705020300"
+  },
+  {
+    title: "치매약 본인부담금 연 36만원 지원, 소득기준은 지역마다 다르다",
+    summary: "치매 진단을 받고 약을 복용 중인 주민에게 진료비·약제비 본인부담금을 월 3만원, 연 36만원 한도로 지원합니다.",
+    target: "치매 진단을 받고 치매치료제를 복용 중이며 관할 지자체 소득기준(중위소득 120~140% 등, 지역별 상이)을 충족한 주민",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "치매치료관리비 치매약본인부담금 치매안심센터 지역별소득기준",
+    blogUrl: "https://300md72.com/entry/%EC%B9%98%EB%A7%A4%EC%95%BD-%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88-%EC%97%B0-36%EB%A7%8C%EC%9B%90-%EC%A7%80%EC%9B%90-%EC%86%8C%EB%93%9D%EA%B8%B0%EC%A4%80%EC%9D%80-%EC%A7%80%EC%97%AD%EB%A7%88%EB%8B%A4-%EB%8B%A4%EB%A5%B4%EB%8B%A4",
+    officialUrl: "https://health.suwon.go.kr/sub.asp?page_code=sub050602"
+  },
+  {
+    title: "소아암 의료비 최대 3천만원, 백혈병과 그 외 암 지원금액 다르다",
+    summary: "암환자 의료비 중 본인부담금과 비급여 비용을 지원하는 제도로, 성인은 연 최대 300만원, 소아는 암종에 따라 최대 2천만~3천만원까지 지원합니다.",
+    target: "성인은 의료급여수급권자·차상위본인부담경감대상자, 소아(18세 미만)는 의료급여수급권자 또는 소득·재산 기준 충족 건강보험가입 가구",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "소아암지원 백혈병치료비 암환자의료비지원 조혈모세포이식지원",
+    blogUrl: "https://300md72.com/entry/%EC%86%8C%EC%95%84%EC%95%94-%EC%9D%98%EB%A3%8C%EB%B9%84-%EC%B5%9C%EB%8C%80-3%EC%B2%9C%EB%A7%8C%EC%9B%90-%EB%B0%B1%ED%98%88%EB%B3%91%EA%B3%BC-%EA%B7%B8-%EC%99%B8-%EC%95%94-%EC%A7%80%EC%9B%90%EA%B8%88%EC%95%A1-%EB%8B%A4%EB%A5%B4%EB%8B%A4",
+    officialUrl: "https://www.mohw.go.kr/menu.es?mid=a10703010100"
+  },
+  {
+    title: "가사·간병 방문지원사업 대상과 2026년 본인부담금 정리",
+    summary: "요양보호사가 가정을 방문해 세면·식사 보조, 청소, 외출동행 등을 지원하는 돌봄 서비스로, 소득구간에 따라 본인부담금이 달라집니다.",
+    target: "만 65세 미만, 2026년 기준중위소득 70% 이하 가구 중 중증질환·희귀난치질환·중증장애·법정보호세대·퇴원 의료급여수급자 등",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "가사간병방문지원 요양보호사방문서비스 저소득층돌봄서비스 기준중위소득70",
+    blogUrl: "https://300md72.com/entry/%EA%B0%80%EC%82%AC%C2%B7%EA%B0%84%EB%B3%91-%EB%B0%A9%EB%AC%B8%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85-%EB%8C%80%EC%83%81%EA%B3%BC-2026%EB%85%84-%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.mohw.go.kr/menu.es?mid=a10709020300"
   }
 ];
