@@ -44,9 +44,9 @@ const benefits = [
     summary: "매주 수요일 전국 참여 문화시설의 할인·무료입장·특별 프로그램을 확인할 수 있습니다.",
     target: "누구나",
     category: "문화·여가",
-    status: "블로그 글 준비 중",
+    status: "현재 확인 가능",
     keywords: "문화 영화 공연 박물관 미술관 수요일 할인",
-    blogUrl: "",
+    blogUrl: "https://300md72.com/entry/%EB%AC%B8%ED%99%94%EA%B0%80-%EC%9E%88%EB%8A%94-%EB%82%A0-%EB%A7%A4%EC%A3%BC-%EC%88%98%EC%9A%94%EC%9D%BC-%ED%99%95%EB%8C%80-2026%EB%85%84-%ED%98%9C%ED%83%9D-%EC%B4%9D%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.culture.go.kr/local/wday/cltrBnefList.do"
   },
   {
@@ -308,5 +308,15 @@ const benefits = [
     keywords: "가사간병방문지원 요양보호사방문서비스 저소득층돌봄서비스 기준중위소득70",
     blogUrl: "https://300md72.com/entry/%EA%B0%80%EC%82%AC%C2%B7%EA%B0%84%EB%B3%91-%EB%B0%A9%EB%AC%B8%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85-%EB%8C%80%EC%83%81%EA%B3%BC-2026%EB%85%84-%EB%B3%B8%EC%9D%B8%EB%B6%80%EB%8B%B4%EA%B8%88-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.mohw.go.kr/menu.es?mid=a10709020300"
+  },
+  {
+    title: "2026 근로장려금 8월 27일 지급 – 조회 방법과 감액 기준 총정리",
+    summary: "2025년 귀속 근로·자녀장려금 정기신청분이 법정 기한보다 앞당겨 2026년 8월 27일 지급됩니다.",
+    target: "2025년 귀속 근로·자녀장려금 정기신청 대상 가구(단독 2,200만원·홑벌이 3,200만원·맞벌이 4,400만원 소득 미만, 재산 2억4천만원 미만)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "근로장려금 지급일 조회방법 감액기준 국세청",
+    blogUrl: "https://300md72.com/entry/2026-%EA%B7%BC%EB%A1%9C%EC%9E%A5%EB%A0%A4%EA%B8%88-8%EC%9B%94-27%EC%9D%BC-%EC%A7%80%EA%B8%89-%E2%80%93-%EC%A1%B0%ED%9A%8C-%EB%B0%A9%EB%B2%95%EA%B3%BC-%EA%B0%90%EC%95%A1-%EA%B8%B0%EC%A4%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784"
   }
 ];
