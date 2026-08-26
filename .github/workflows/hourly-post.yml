@@ -1,0 +1,34 @@
+name: Hourly Threads Autopost
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  autopost:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 새 글 확인 후 쓰레드에 게시
+        env:
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+        run: python automation/gov-thread-autopost/autopost.py
+
+      - name: state.json 변경사항 커밋
+        if: always()
+        run: |
+          git config user.name "gov-thread-autopost-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add automation/gov-thread-autopost/state.json
+          git diff --cached --quiet || git commit -m "state 업데이트: 자동 게시 기록"
+          git push
