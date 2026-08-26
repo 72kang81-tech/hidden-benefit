@@ -328,5 +328,15 @@ const benefits = [
     keywords: "고유가피해지원금 사용기한 잔액소멸 소상공인매장 주유소",
     blogUrl: "https://300md72.com/entry/%EA%B3%A0%EC%9C%A0%EA%B0%80-%ED%94%BC%ED%95%B4%EC%A7%80%EC%9B%90%EA%B8%88-%EC%82%AC%EC%9A%A9%EA%B8%B0%ED%95%9C-8%EC%9B%94-31%EC%9D%BC-%EC%9E%94%EC%95%A1-%ED%99%95%EC%9D%B8-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=125906"
+  },
+  {
+    title: "근로장려금 9월 반기신청, 신청기간·대상·지급액 정리",
+    summary: "근로장려금 9월 반기신청이 2026년 9월 1일부터 15일까지 접수됩니다. 신청 대상, 지급액, 12월 선지급 방식과 신청 방법을 정리했습니다.",
+    target: "2026년 상반기(1~6월) 근로소득만 있는 근로자(배우자 포함)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "근로장려금 9월 반기신청 신청기간 대상 지급액",
+    blogUrl: "https://300md72.com/entry/%EA%B7%BC%EB%A1%9C%EC%9E%A5%EB%A0%A4%EA%B8%88-9%EC%9B%94-%EB%B0%98%EA%B8%B0%EC%8B%A0%EC%B2%AD-%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84%C2%B7%EB%8C%80%EC%83%81%C2%B7%EC%A7%80%EA%B8%89%EC%95%A1-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784"
   }
 ];
