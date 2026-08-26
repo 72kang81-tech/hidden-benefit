@@ -8,12 +8,18 @@
   3. 새 글이면 RSS 안의 메타디스크립션(gov-support-blog-editor 스킬이 HTML 안에
      <!-- 메타디스크립션: ... --> 형태로 심어둔 요약 문장)을 뽑아서, 미리 준비된
      여러 템플릿 중 하나(직전 실행과 겹치지 않게 순환)로 쓰레드 본문 + 고정 댓글을 만든다.
-  4. Threads API로 본문을 게시하고, 이어서 고정 댓글(블로그 링크 포함)을 답글로 게시한다.
+  4. Threads API로 본문을 게시하고, 이어서 고정 댓글(블로그 글 링크 + benefit.300md72.com
+     링크 둘 다 포함)을 답글로 게시한다.
   5. 처리 결과를 state.json에 기록한다. 이 파일은 워크플로우가 커밋해서 저장소에 반영한다.
 
 사람의 확인(승인) 절차 없이 완전 자동으로 게시된다 — 이건 사용자가 명시적으로
 선택한 방식이다. 문구는 AI가 매번 새로 짓는 게 아니라 정해진 템플릿을 순환시키는
 방식이라, Cowork 대화에서 만드는 초안보다 표현이 반복될 수 있다.
+
+링크 규칙(2026-08-26 확정): 쓰레드 본문(BODY_TEMPLATES)에는 어떤 링크도 절대 넣지
+않는다 — 링크는 항상 고정 댓글에만 넣는다. 고정 댓글에는 블로그 글 링크와
+benefit.300md72.com 링크를 항상 둘 다 넣는다 — 블로그 링크만 있고 베네핏 링크가
+빠지면 안 된다.
 """
 import html
 import json
@@ -30,6 +36,13 @@ STATE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.jso
 API_BASE = "https://graph.threads.net/v1.0"
 MAX_LEN = 500
 
+# 숨은 혜택 큐레이션 사이트 — 개별 글 딥링크는 지원하지 않아(script.js가 검색/필터를
+# 클라이언트에서 처리) 항상 사이트 루트로 건다. 고정 댓글에는 이 링크를 블로그 글
+# 링크와 함께 항상 넣는다.
+BENEFIT_SITE_URL = "https://benefit.300md72.com/"
+
+# 절대 이 리스트에 {link}나 {benefit_link}를 넣지 않는다 — 본문에는 링크를 넣지 않는
+# 게 규칙이다. 링크는 REPLY_TEMPLATES(고정 댓글)에서만 쓴다.
 BODY_TEMPLATES = [
     "{title} 이거 모르면 그냥 날아감.\n\n{meta}\n\n근데 조건이랑 신청 안내가 은근 헷갈림. 놓치기 전에 확인해봐.\n\n{tags}",
     "이거 아직도 모르는 사람 있음?\n\n{title}\n\n{meta}\n\n자세한 조건은 다 안 적음.\n\n{tags}",
@@ -38,10 +51,11 @@ BODY_TEMPLATES = [
     "다들 이거 확인했나 모르겠음.\n\n{title}\n\n{meta}\n\n자세한 내용은 더 있는데 다 못 적음.\n\n{tags}",
 ]
 
+# 블로그 글 링크({link})와 베네핏 사이트 링크({benefit_link})를 항상 둘 다 포함한다.
 REPLY_TEMPLATES = [
-    "자세한 내용 여기 👉 {link}",
-    "신청 방법 정리해둠 👉 {link}",
-    "조건 궁금하면 확인 👉 {link}",
+    "자세한 내용 여기 👉 {link}\n\n비슷한 숨은 혜택 더 보기 👉 {benefit_link}",
+    "신청 방법 정리해둠 👉 {link}\n\n놓치기 쉬운 다른 혜택도 모아둠 👉 {benefit_link}",
+    "조건 궁금하면 확인 👉 {link}\n\n숨은 혜택 더 보기 👉 {benefit_link}",
 ]
 
 TAG_SETS = [
@@ -124,7 +138,7 @@ def build_texts(post, state):
     body = BODY_TEMPLATES[body_idx].format(
         title=post["title"], meta=post["meta"], tags=TAG_SETS[tag_idx]
     )
-    reply = REPLY_TEMPLATES[reply_idx].format(link=post["link"])
+    reply = REPLY_TEMPLATES[reply_idx].format(link=post["link"], benefit_link=BENEFIT_SITE_URL)
 
     if len(body) > MAX_LEN:
         # 메타 요약이 너무 길면 잘라서 길이 제한을 지킨다
@@ -133,6 +147,11 @@ def build_texts(post, state):
         body = BODY_TEMPLATES[body_idx].format(
             title=post["title"], meta=trimmed_meta, tags=TAG_SETS[tag_idx]
         )
+
+    if len(reply) > MAX_LEN:
+        # 문구가 길어서 링크 두 개(블로그 + 베네핏)와 함께 500자를 넘으면, 문구는
+        # 빼고 링크 두 개만 남긴다 — 링크가 하나라도 빠지는 것보다는 이게 낫다.
+        reply = f"{post['link']}\n{BENEFIT_SITE_URL}"
 
     return body, reply, body_idx, reply_idx, tag_idx
 
