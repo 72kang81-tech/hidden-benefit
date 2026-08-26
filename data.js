@@ -24,9 +24,9 @@ const benefits = [
     summary: "가입한 보험과 찾아가지 않은 보험금이 있는지 확인할 수 있습니다.",
     target: "보험 가입 이력이 있는 사람",
     category: "금융·생활비",
-    status: "블로그 글 준비 중",
+    status: "현재 확인 가능",
     keywords: "숨은 보험금 내보험찾아줌 금융",
-    blogUrl: "",
+    blogUrl: "https://300md72.com/entry/%EC%88%A8%EC%9D%80%EB%B3%B4%ED%97%98%EA%B8%89-%EC%B0%BE%EB%8A%94-%EB%B2%95-%EB%82%B4%EB%B3%B4%ED%97%98%EC%B0%BE%EC%95%84%EC%A4%8C-%EC%A1%B0%ED%9A%8C-%EB%8C%80%EC%83%81%EA%B3%BC-%EB%B0%A9%EB%B2%95",
     officialUrl: "https://cont.insure.or.kr"
   },
   {
@@ -34,9 +34,9 @@ const benefits = [
     summary: "피해자로 결정된 경우 이용할 수 있는 주거·금융·법률 지원을 안내합니다.",
     target: "전세사기 피해자",
     category: "주거",
-    status: "블로그 글 준비 중",
+    status: "현재 확인 가능",
     keywords: "전세사기 피해 주거 금융 법률",
-    blogUrl: "",
+    blogUrl: "https://300md72.com/entry/%EC%A0%84%EC%84%B8%EC%82%AC%EA%B8%B0-%ED%94%BC%ED%95%B4%EC%9E%90-%EA%B2%B0%EC%A0%95-%ED%9B%84-%EB%B0%9B%EB%8A%94-%EC%A3%BC%EA%B1%B0%C2%B7%EA%B8%88%EC%9C%B5%C2%B7%EB%B2%95%EB%A5%A0-%EC%A7%80%EC%9B%90-%EC%B4%9D%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.khug.or.kr/jeonse/"
   },
   {
@@ -318,5 +318,15 @@ const benefits = [
     keywords: "근로장려금 지급일 조회방법 감액기준 국세청",
     blogUrl: "https://300md72.com/entry/2026-%EA%B7%BC%EB%A1%9C%EC%9E%A5%EB%A0%A4%EA%B8%88-8%EC%9B%94-27%EC%9D%BC-%EC%A7%80%EA%B8%89-%E2%80%93-%EC%A1%B0%ED%9A%8C-%EB%B0%A9%EB%B2%95%EA%B3%BC-%EA%B0%90%EC%95%A1-%EA%B8%B0%EC%A4%80-%EC%B4%9D%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784"
+  },
+  {
+    title: "고유가 피해지원금 사용기한 8월 31일, 잔액 확인 방법 정리",
+    summary: "5월에 지급된 고유가 피해지원금 중 못 쓴 잔액이 있다면 2026년 8월 31일 24시까지만 사용할 수 있고, 이후에는 자동으로 소멸됩니다.",
+    target: "2026년 5월 18일~7월 3일 신청·지급받은 국민(소득 하위 70% 등, 이미 지급 완료)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "고유가피해지원금 사용기한 잔액소멸 소상공인매장 주유소",
+    blogUrl: "https://300md72.com/entry/%EA%B3%A0%EC%9C%A0%EA%B0%80-%ED%94%BC%ED%95%B4%EC%A7%80%EC%9B%90%EA%B8%88-%EC%82%AC%EC%9A%A9%EA%B8%B0%ED%95%9C-8%EC%9B%94-31%EC%9D%BC-%EC%9E%94%EC%95%A1-%ED%99%95%EC%9D%B8-%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=125906"
   }
 ];
