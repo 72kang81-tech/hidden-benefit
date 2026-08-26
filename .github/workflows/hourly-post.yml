@@ -24,11 +24,14 @@ jobs:
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
         run: python automation/gov-thread-autopost/autopost.py
 
-      - name: state.json 변경사항 커밋
+      - name: 새 글 확인 후 benefit 카드 연동
+        run: python automation/gov-thread-autopost/benefit_autolink.py
+
+      - name: 변경사항 커밋 (state, data.js)
         if: always()
         run: |
           git config user.name "gov-thread-autopost-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add automation/gov-thread-autopost/state.json
-          git diff --cached --quiet || git commit -m "state 업데이트: 자동 게시 기록"
+          git add automation/gov-thread-autopost/state.json automation/gov-thread-autopost/benefit_state.json data.js
+          git diff --cached --quiet || git commit -m "state/카드 업데이트: 자동 게시·연동 기록"
           git push
