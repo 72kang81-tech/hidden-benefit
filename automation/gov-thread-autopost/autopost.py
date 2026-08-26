@@ -15,6 +15,7 @@
 선택한 방식이다. 문구는 AI가 매번 새로 짓는 게 아니라 정해진 템플릿을 순환시키는
 방식이라, Cowork 대화에서 만드는 초안보다 표현이 반복될 수 있다.
 """
+import html
 import json
 import os
 import re
@@ -76,7 +77,9 @@ def save_state(state):
 
 
 def fetch(url, data=None, headers=None, method=None, timeout=20):
-    req = urllib.request.Request(url, data=data, headers=headers or {}, method=method)
+    merged_headers = {"User-Agent": "Mozilla/5.0 (gov-thread-autopost bot)"}
+    merged_headers.update(headers or {})
+    req = urllib.request.Request(url, data=data, headers=merged_headers, method=method)
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.status, resp.read().decode("utf-8")
 
@@ -87,9 +90,9 @@ def get_latest_post():
     item = root.find("./channel/item")
     if item is None:
         return None
-    title = item.findtext("title", default="").strip()
+    title = html.unescape(item.findtext("title", default="").strip())
     link = item.findtext("link", default="").strip()
-    description = item.findtext("description", default="") or ""
+    description = html.unescape(item.findtext("description", default="") or "")
 
     meta_match = re.search(r"메타디스크립션:\s*(.+?)\s*-->", description)
     if meta_match:
