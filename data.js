@@ -26,7 +26,7 @@ const benefits = [
     category: "금융·생활비",
     status: "현재 확인 가능",
     keywords: "숨은 보험금 내보험찾아줌 금융",
-    blogUrl: "https://300md72.com/entry/%EC%88%A8%EC%9D%80%EB%B3%B4%ED%97%98%EA%B8%89-%EC%B0%BE%EB%8A%94-%EB%B2%95-%EB%82%B4%EB%B3%B4%ED%97%98%EC%B0%BE%EC%95%84%EC%A4%8C-%EC%A1%B0%ED%9A%8C-%EB%8C%80%EC%83%81%EA%B3%BC-%EB%B0%A9%EB%B2%95",
+    blogUrl: "https://300md72.com/entry/%EC%88%A8%EC%9D%80%EB%B3%B4%ED%97%98%EA%B8%88-%EC%B0%BE%EB%8A%94-%EB%B2%95-%EB%82%B4%EB%B3%B4%ED%97%98%EC%B0%BE%EC%95%84%EC%A4%8C-%EC%A1%B0%ED%9A%8C-%EB%8C%80%EC%83%81%EA%B3%BC-%EB%B0%A9%EB%B2%95",
     officialUrl: "https://cont.insure.or.kr"
   },
   {
