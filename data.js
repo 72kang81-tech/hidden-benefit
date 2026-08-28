@@ -338,5 +338,15 @@ const benefits = [
     keywords: "근로장려금 9월 반기신청 신청기간 대상 지급액",
     blogUrl: "https://300md72.com/entry/%EA%B7%BC%EB%A1%9C%EC%9E%A5%EB%A0%A4%EA%B8%88-9%EC%9B%94-%EB%B0%98%EA%B8%B0%EC%8B%A0%EC%B2%AD-%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84%C2%B7%EB%8C%80%EC%83%81%C2%B7%EC%A7%80%EA%B8%89%EC%95%A1-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784"
+  },
+  {
+    title: "국가장학금 2학기 2차 신청, 9월 9일까지 놓치지 마세요",
+    summary: "2026년 2학기 국가장학금 2차 신청이 9월 9일까지 진행됩니다. 1차를 놓친 재학생과 신입생·편입생 대상 신청 자격, 학자금지원구간별 지원금액, 가구원 동의 마감일을 정리했습니다.",
+    target: "2학기 신입생·편입생·재입학생·복학생 전체, 재학생은 재학 중 2회 한도의 구제 신청",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "국가장학금 2학기 2차 신청 9월 9일까지",
+    blogUrl: "https://300md72.com/entry/%EA%B5%AD%EA%B0%80%EC%9E%A5%ED%95%99%EA%B8%88-2%ED%95%99%EA%B8%B0-2%EC%B0%A8-%EC%8B%A0%EC%B2%AD-9%EC%9B%94-9%EC%9D%BC%EA%B9%8C%EC%A7%80-%EB%86%93%EC%B9%98%EC%A7%80-%EB%A7%88%EC%84%B8%EC%9A%94",
+    officialUrl: "https://www.kosaf.go.kr"
   }
 ];
