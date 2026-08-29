@@ -358,5 +358,15 @@ const benefits = [
     keywords: "국민취업지원제도 국민내일배움카드 2026 개편 무엇이 달라졌나",
     blogUrl: "https://300md72.com/entry/%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84%C2%B7%EA%B5%AD%EB%AF%BC%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%B9%B4%EB%93%9C-2026-%EA%B0%9C%ED%8E%B8-%EB%AC%B4%EC%97%87%EC%9D%B4-%EB%8B%AC%EB%9D%BC%EC%A1%8C%EB%82%98",
     officialUrl: "https://www.moel.go.kr/policyitrd/policyItrdView.do?policy_itrd_sn=52"
+  },
+  {
+    title: "2026 청년월세 특별지원, 상시 신청으로 바뀐 자격조건과 신청방법",
+    summary: "대상: 만 19~34세, 부모와 따로 거주하는 무주택 청년",
+    target: "만 19~34세, 부모와 따로 거주하는 무주택 청년",
+    category: "주거",
+    status: "현재 확인 가능",
+    keywords: "2026 청년월세 특별지원 상시 신청으로 바뀐",
+    blogUrl: "https://300md72.com/entry/2026-%EC%B2%AD%EB%85%84%EC%9B%94%EC%84%B8-%ED%8A%B9%EB%B3%84%EC%A7%80%EC%9B%90-%EC%83%81%EC%8B%9C-%EC%8B%A0%EC%B2%AD%EC%9C%BC%EB%A1%9C-%EB%B0%94%EB%80%90-%EC%9E%90%EA%B2%A9%EC%A1%B0%EA%B1%B4%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
+    officialUrl: "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyYouthMonthlySupView.do"
   }
 ];
