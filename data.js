@@ -368,5 +368,15 @@ const benefits = [
     keywords: "2026 청년월세 특별지원 상시 신청으로 바뀐",
     blogUrl: "https://300md72.com/entry/2026-%EC%B2%AD%EB%85%84%EC%9B%94%EC%84%B8-%ED%8A%B9%EB%B3%84%EC%A7%80%EC%9B%90-%EC%83%81%EC%8B%9C-%EC%8B%A0%EC%B2%AD%EC%9C%BC%EB%A1%9C-%EB%B0%94%EB%80%90-%EC%9E%90%EA%B2%A9%EC%A1%B0%EA%B1%B4%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
     officialUrl: "https://www.myhome.go.kr/hws/portal/cont/selectYouthPolicyYouthMonthlySupView.do"
+  },
+  {
+    title: "청년도약계좌 끝났다면 청년미래적금 조건 먼저 확인",
+    summary: "청년미래적금은 신규가입이 끝난 청년도약계좌를 대신하는 청년 자산형성 상품입니다. 가입조건, 소득기준, 정부기여금과 12월 추가 모집 관련 확인사항을 정리했습니다.",
+    target: "만 19~34세 청년 (병역 이행자는 최대 6년 연령 제외)",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "청년도약계좌 끝났다면 청년미래적금 조건 먼저 확인",
+    blogUrl: "https://300md72.com/entry/%EC%B2%AD%EB%85%84%EB%8F%84%EC%95%BD%EA%B3%84%EC%A2%8C-%EB%81%9D%EB%82%AC%EB%8B%A4%EB%A9%B4-%EC%B2%AD%EB%85%84%EB%AF%B8%EB%9E%98%EC%A0%81%EA%B8%88-%EC%A1%B0%EA%B1%B4-%EB%A8%BC%EC%A0%80-%ED%99%95%EC%9D%B8",
+    officialUrl: "https://www.fsc.go.kr/no040101?cnId=2983"
   }
 ];
