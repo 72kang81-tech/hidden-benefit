@@ -388,5 +388,15 @@ const benefits = [
     keywords: "2026년 실업급여 상한액 인상 하한액과 함께",
     blogUrl: "https://300md72.com/entry/2026%EB%85%84-%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC-%EC%83%81%ED%95%9C%EC%95%A1-%EC%9D%B8%EC%83%81-%ED%95%98%ED%95%9C%EC%95%A1%EA%B3%BC-%ED%95%A8%EA%BB%98-%EB%8B%AC%EB%9D%BC%EC%A7%84-%EC%A0%90",
     officialUrl: "https://edrm.ei.go.kr/ei/eih/cm/hm/main.do"
+  },
+  {
+    title: "2026 근로장려금 반기신청, 9월 15일까지 대상과 신청방법 정리",
+    summary: "2026년 근로장려금 반기신청은 9월 1일부터 15일까지 홈택스·손택스에서 접수합니다. 근로소득자 대상 소득·재산 기준과 12월에 35%를 먼저 받는 지급 방식, 신청 절차와 유의사항을 정리했습니다.",
+    target: "근로소득만 있는 근로소득자(사업소득·종교인소득자는 반기신청 대상 아님)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "2026 근로장려금 반기신청 9월 15일까지 대상과",
+    blogUrl: "https://300md72.com/entry/2026-%EA%B7%BC%EB%A1%9C%EC%9E%A5%EB%A0%A4%EA%B8%88-%EB%B0%98%EA%B8%B0%EC%8B%A0%EC%B2%AD-9%EC%9B%94-15%EC%9D%BC%EA%B9%8C%EC%A7%80-%EB%8C%80%EC%83%81%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7783"
   }
 ];
