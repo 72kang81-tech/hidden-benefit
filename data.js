@@ -398,5 +398,15 @@ const benefits = [
     keywords: "2026 근로장려금 반기신청 9월 15일까지 대상과",
     blogUrl: "https://300md72.com/entry/2026-%EA%B7%BC%EB%A1%9C%EC%9E%A5%EB%A0%A4%EA%B8%88-%EB%B0%98%EA%B8%B0%EC%8B%A0%EC%B2%AD-9%EC%9B%94-15%EC%9D%BC%EA%B9%8C%EC%A7%80-%EB%8C%80%EC%83%81%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7783"
+  },
+  {
+    title: "자영업자 고용보험료 최대 80% 환급, 상시근로자 5명 미만이면 확인하세요",
+    summary: "2026년 소상공인 고용보험료 지원사업은 자영업자 고용보험료의 50~80%를 최대 5년간 환급합니다. 상시근로자 5명 미만 소상공인이 대상이며, 예산 소진 시까지 신청할 수 있습니다.",
+    target: "'자영업자 고용보험'에 가입한 소상공인(상시근로자 5명 미만, 제조업·광업·건설업·운수업은 10명 미만)",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "자영업자 고용보험료 최대 80 환급 상시근로자",
+    blogUrl: "https://300md72.com/entry/%EC%9E%90%EC%98%81%EC%97%85%EC%9E%90-%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%A3%8C-%EC%B5%9C%EB%8C%80-80-%ED%99%98%EA%B8%89-%EC%83%81%EC%8B%9C%EA%B7%BC%EB%A1%9C%EC%9E%90-5%EB%AA%85-%EB%AF%B8%EB%A7%8C%EC%9D%B4%EB%A9%B4-%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94",
+    officialUrl: "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/view.do?pblancId=PBLN_000000000117022"
   }
 ];
