@@ -418,5 +418,15 @@ const benefits = [
     keywords: "국세 지방세 미환급금 조회 방법 홈택스",
     blogUrl: "https://300md72.com/entry/%EA%B5%AD%EC%84%B8-%EC%A7%80%EB%B0%A9%EC%84%B8-%EB%AF%B8%ED%99%98%EA%B8%89%EA%B8%88-%EC%A1%B0%ED%9A%8C-%EB%B0%A9%EB%B2%95-%ED%99%88%ED%83%9D%EC%8A%A4%C2%B7%EC%9C%84%ED%83%9D%EC%8A%A4%EB%A1%9C-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0",
     officialUrl: "https://openservice.go.kr/refundInquiry"
+  },
+  {
+    title: "아동수당 만 9세로 확대, 2026년 4월부터 달라지는 지급 기준",
+    summary: "2026년 아동수당은 지급 대상이 만 8세 미만에서 9세 미만으로 확대되고, 비수도권과 인구감소지역은 지급액도 늘었습니다. 시행일과 소급지급 대상, 신청방법까지 확인할 수 있습니다.",
+    target: "만 8세 미만 → 만 9세 미만으로 확대 (2017년 1월~2018년 3월생 약 43만 명 신규 대상)",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "아동수당 9세로 확대 2026년 4월부터 달라지는",
+    blogUrl: "https://300md72.com/entry/%EC%95%84%EB%8F%99%EC%88%98%EB%8B%B9-%EB%A7%8C-9%EC%84%B8%EB%A1%9C-%ED%99%95%EB%8C%80-2026%EB%85%84-4%EC%9B%94%EB%B6%80%ED%84%B0-%EB%8B%AC%EB%9D%BC%EC%A7%80%EB%8A%94-%EC%A7%80%EA%B8%89-%EA%B8%B0%EC%A4%80",
+    officialUrl: "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490257&tag=&nPage=1"
   }
 ];
