@@ -408,5 +408,15 @@ const benefits = [
     keywords: "자영업자 고용보험료 최대 80 환급 상시근로자",
     blogUrl: "https://300md72.com/entry/%EC%9E%90%EC%98%81%EC%97%85%EC%9E%90-%EA%B3%A0%EC%9A%A9%EB%B3%B4%ED%97%98%EB%A3%8C-%EC%B5%9C%EB%8C%80-80-%ED%99%98%EA%B8%89-%EC%83%81%EC%8B%9C%EA%B7%BC%EB%A1%9C%EC%9E%90-5%EB%AA%85-%EB%AF%B8%EB%A7%8C%EC%9D%B4%EB%A9%B4-%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94",
     officialUrl: "https://www.bizinfo.go.kr/web/lay1/bbs/S1T122C128/AS/74/view.do?pblancId=PBLN_000000000117022"
+  },
+  {
+    title: "국세 지방세 미환급금 조회 방법, 홈택스 위택스로 확인하기",
+    summary: "국세·지방세 미환급금 조회 방법을 정리했습니다. 홈택스 미수령환급금 조회 서비스와 위택스 지방세 환급금 조회로 대상, 5년 조회 기간, ARS·온라인 신청 방법까지 확인할 수 있습니다.",
+    target: "부가가치세·종합소득세 등을 신고했거나 근로·자녀장려금을 신청해 환급이 결정됐지만 계좌 오류 등으로 받지 못한 사람(국세), 자동차세·재산세 등 지방세 환급 대상자(지방세)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "국세 지방세 미환급금 조회 방법 홈택스",
+    blogUrl: "https://300md72.com/entry/%EA%B5%AD%EC%84%B8-%EC%A7%80%EB%B0%A9%EC%84%B8-%EB%AF%B8%ED%99%98%EA%B8%89%EA%B8%88-%EC%A1%B0%ED%9A%8C-%EB%B0%A9%EB%B2%95-%ED%99%88%ED%83%9D%EC%8A%A4%C2%B7%EC%9C%84%ED%83%9D%EC%8A%A4%EB%A1%9C-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0",
+    officialUrl: "https://openservice.go.kr/refundInquiry"
   }
 ];
