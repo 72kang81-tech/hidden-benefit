@@ -428,5 +428,15 @@ const benefits = [
     keywords: "아동수당 9세로 확대 2026년 4월부터 달라지는",
     blogUrl: "https://300md72.com/entry/%EC%95%84%EB%8F%99%EC%88%98%EB%8B%B9-%EB%A7%8C-9%EC%84%B8%EB%A1%9C-%ED%99%95%EB%8C%80-2026%EB%85%84-4%EC%9B%94%EB%B6%80%ED%84%B0-%EB%8B%AC%EB%9D%BC%EC%A7%80%EB%8A%94-%EC%A7%80%EA%B8%89-%EA%B8%B0%EC%A4%80",
     officialUrl: "https://www.mohw.go.kr/board.es?mid=a10503010100&bid=0027&act=view&list_no=1490257&tag=&nPage=1"
+  },
+  {
+    title: "2026년 기초연금 선정기준 인상, 단독가구 247만원 이하면 신청",
+    summary: "2026년 기초연금 선정기준액이 인상되어 단독가구는 월 소득인정액 247만 원, 부부가구는 395만 2천 원 이하면 대상이 됩니다. 지원금액과 신청방법을 확인할 수 있습니다.",
+    target: "만 65세 이상, 단독가구 월 소득인정액 247만 원 이하 / 부부가구 395만 2천 원 이하",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "2026년 기초연금 선정기준 인상 단독가구 247만원",
+    blogUrl: "https://300md72.com/entry/2026%EB%85%84-%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88-%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80-%EC%9D%B8%EC%83%81-%EB%8B%A8%EB%8F%85%EA%B0%80%EA%B5%AC-247%EB%A7%8C%EC%9B%90-%EC%9D%B4%ED%95%98%EB%A9%B4-%EC%8B%A0%EC%B2%AD",
+    officialUrl: "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1488478&mid=a10503000000"
   }
 ];
