@@ -438,5 +438,15 @@ const benefits = [
     keywords: "2026년 기초연금 선정기준 인상 단독가구 247만원",
     blogUrl: "https://300md72.com/entry/2026%EB%85%84-%EA%B8%B0%EC%B4%88%EC%97%B0%EA%B8%88-%EC%84%A0%EC%A0%95%EA%B8%B0%EC%A4%80-%EC%9D%B8%EC%83%81-%EB%8B%A8%EB%8F%85%EA%B0%80%EA%B5%AC-247%EB%A7%8C%EC%9B%90-%EC%9D%B4%ED%95%98%EB%A9%B4-%EC%8B%A0%EC%B2%AD",
     officialUrl: "https://www.mohw.go.kr/board.es?act=view&bid=0027&list_no=1488478&mid=a10503000000"
+  },
+  {
+    title: "추석 앞두고 지역사랑상품권 할인판매, 내가 사는 지역도 확인해보기",
+    summary: "추석을 앞두고 전국 여러 지자체가 지역사랑상품권 특별할인판매를 진행하고 있습니다. 성남사랑상품권 등 실제 사례로 할인율과 구매 방법을 확인하고, 내가 사는 지역의 할인 정보를 찾는 방법을 정리했습니다.",
+    target: "상품권 구매 자체는 대부분 자격 제한이 없지만, 사용은 해당 지자체 가맹점으로 한정됩니다 (지자체마다 조건이 다릅니다)",
+    category: "문화·여가",
+    status: "현재 확인 가능",
+    keywords: "추석 앞두고 지역사랑상품권 할인판매 내가 사는",
+    blogUrl: "https://300md72.com/entry/%EC%B6%94%EC%84%9D-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%A7%80%EC%97%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C-%ED%95%A0%EC%9D%B8%ED%8C%90%EB%A7%A4-%EB%82%B4%EA%B0%80-%EC%82%AC%EB%8A%94-%EC%A7%80%EC%97%AD%EB%8F%84-%ED%99%95%EC%9D%B8%ED%95%B4%EB%B3%B4%EA%B8%B0",
+    officialUrl: "https://www.mois.go.kr/frt/sub/a06/b07/localVoucher/screen.do"
   }
 ];
