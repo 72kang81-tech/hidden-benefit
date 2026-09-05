@@ -448,5 +448,15 @@ const benefits = [
     keywords: "추석 앞두고 지역사랑상품권 할인판매 내가 사는",
     blogUrl: "https://300md72.com/entry/%EC%B6%94%EC%84%9D-%EC%95%9E%EB%91%90%EA%B3%A0-%EC%A7%80%EC%97%AD%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C-%ED%95%A0%EC%9D%B8%ED%8C%90%EB%A7%A4-%EB%82%B4%EA%B0%80-%EC%82%AC%EB%8A%94-%EC%A7%80%EC%97%AD%EB%8F%84-%ED%99%95%EC%9D%B8%ED%95%B4%EB%B3%B4%EA%B8%B0",
     officialUrl: "https://www.mois.go.kr/frt/sub/a06/b07/localVoucher/screen.do"
+  },
+  {
+    title: "2026 국민내일배움카드 신청 방법과 훈련비 지원한도",
+    summary: "국민내일배움카드는 실업자·재직자·자영업자 누구나 상시 신청할 수 있습니다. 지원대상, 훈련비 지원한도, 자비부담률, 신청 방법을 정리했습니다.",
+    target: "실업자, 재직자, 자영업자, 특수형태근로종사자 등 대부분의 국민",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "2026 국민내일배움카드 신청 방법과 훈련비 지원한도",
+    blogUrl: "https://300md72.com/entry/2026-%EA%B5%AD%EB%AF%BC%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%B9%B4%EB%93%9C-%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95%EA%B3%BC-%ED%9B%88%EB%A0%A8%EB%B9%84-%EC%A7%80%EC%9B%90%ED%95%9C%EB%8F%84",
+    officialUrl: "https://www.work24.go.kr/hr/h/a/1100/selectIssuGudn.do"
   }
 ];
