@@ -458,5 +458,15 @@ const benefits = [
     keywords: "2026 국민내일배움카드 신청 방법과 훈련비 지원한도",
     blogUrl: "https://300md72.com/entry/2026-%EA%B5%AD%EB%AF%BC%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%B9%B4%EB%93%9C-%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95%EA%B3%BC-%ED%9B%88%EB%A0%A8%EB%B9%84-%EC%A7%80%EC%9B%90%ED%95%9C%EB%8F%84",
     officialUrl: "https://www.work24.go.kr/hr/h/a/1100/selectIssuGudn.do"
+  },
+  {
+    title: "2026 추석 소상공인 정책자금 43.4조, 지원내용과 신청방법",
+    summary: "대상: 소상공인·자영업자 (일부 항목은 30인 미만 사업장, 서민·취약계층·청년층 별도 구분)",
+    target: "소상공인·자영업자 (일부 항목은 30인 미만 사업장, 서민·취약계층·청년층 별도 구분)",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "2026 추석 소상공인 정책자금 43 4조",
+    blogUrl: "https://300md72.com/entry/2026-%EC%B6%94%EC%84%9D-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88-434%EC%A1%B0-%EC%A7%80%EC%9B%90%EB%82%B4%EC%9A%A9%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
+    officialUrl: "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1064354&parentSeq=1064354"
   }
 ];
