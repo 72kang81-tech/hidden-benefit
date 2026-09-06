@@ -468,5 +468,15 @@ const benefits = [
     keywords: "2026 추석 소상공인 정책자금 43 4조",
     blogUrl: "https://300md72.com/entry/2026-%EC%B6%94%EC%84%9D-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88-434%EC%A1%B0-%EC%A7%80%EC%9B%90%EB%82%B4%EC%9A%A9%EA%B3%BC-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95",
     officialUrl: "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1064354&parentSeq=1064354"
+  },
+  {
+    title: "아이맞이지원금·아동기본수당 신설, 2026년생 아기는 어떻게 되나",
+    summary: "대상: 2027년 7월 이후 출생아(아이맞이지원금), 0~12세 아동(아동기본수당, 단계적 확대)",
+    target: "2027년 7월 이후 출생아(아이맞이지원금), 0~12세 아동(아동기본수당, 단계적 확대)",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "아이맞이지원금 아동기본수당 신설 2026년생 아기는 어떻게",
+    blogUrl: "https://300md72.com/entry/%EC%95%84%EC%9D%B4%EB%A7%9E%EC%9D%B4%EC%A7%80%EC%9B%90%EA%B8%88%C2%B7%EC%95%84%EB%8F%99%EA%B8%B0%EB%B3%B8%EC%88%98%EB%8B%B9-%EC%8B%A0%EC%84%A4-2026%EB%85%84%EC%83%9D-%EC%95%84%EA%B8%B0%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%98%EB%82%98",
+    officialUrl: "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=1491722&mid=a10503010100"
   }
 ];
