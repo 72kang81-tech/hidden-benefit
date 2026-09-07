@@ -478,5 +478,15 @@ const benefits = [
     keywords: "아이맞이지원금 아동기본수당 신설 2026년생 아기는 어떻게",
     blogUrl: "https://300md72.com/entry/%EC%95%84%EC%9D%B4%EB%A7%9E%EC%9D%B4%EC%A7%80%EC%9B%90%EA%B8%88%C2%B7%EC%95%84%EB%8F%99%EA%B8%B0%EB%B3%B8%EC%88%98%EB%8B%B9-%EC%8B%A0%EC%84%A4-2026%EB%85%84%EC%83%9D-%EC%95%84%EA%B8%B0%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%90%98%EB%82%98",
     officialUrl: "https://mohw.go.kr/board.es?act=view&bid=0027&list_no=1491722&mid=a10503010100"
+  },
+  {
+    title: "2026 온누리상품권 추석 특별할인, 기간과 한도 총정리",
+    summary: "대상: 디지털온누리상품권 구매자 (지류형 포함 여부는 확인 필요)",
+    target: "디지털온누리상품권 구매자 (지류형 포함 여부는 확인 필요)",
+    category: "문화·여가",
+    status: "현재 확인 가능",
+    keywords: "2026 온누리상품권 추석 특별할인 기간과 한도",
+    blogUrl: "https://300md72.com/entry/2026-%EC%98%A8%EB%88%84%EB%A6%AC%EC%83%81%ED%92%88%EA%B6%8C-%EC%B6%94%EC%84%9D-%ED%8A%B9%EB%B3%84%ED%95%A0%EC%9D%B8-%EA%B8%B0%EA%B0%84%EA%B3%BC-%ED%95%9C%EB%8F%84-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.semas.or.kr/web/main/index.kmdc"
   }
 ];
