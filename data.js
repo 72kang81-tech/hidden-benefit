@@ -488,5 +488,15 @@ const benefits = [
     keywords: "2026 온누리상품권 추석 특별할인 기간과 한도",
     blogUrl: "https://300md72.com/entry/2026-%EC%98%A8%EB%88%84%EB%A6%AC%EC%83%81%ED%92%88%EA%B6%8C-%EC%B6%94%EC%84%9D-%ED%8A%B9%EB%B3%84%ED%95%A0%EC%9D%B8-%EA%B8%B0%EA%B0%84%EA%B3%BC-%ED%95%9C%EB%8F%84-%EC%B4%9D%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.semas.or.kr/web/main/index.kmdc"
+  },
+  {
+    title: "2026 지역사랑 휴가지원(반값여행) 하반기 확대, 대상과 환급액은",
+    summary: "지역사랑 휴가지원(대한민국 반값여행)이 하반기 9개 지역을 추가해 총 25개 지역에서 운영됩니다. 지원대상, 환급 금액, 신청 방법을 정리했습니다.",
+    target: "만 18세 이상 국민 누구나 (여행지와 생활권이 인접한 주민은 제외될 수 있음)",
+    category: "문화·여가",
+    status: "현재 확인 가능",
+    keywords: "2026 지역사랑 휴가지원 반값여행 하반기 확대",
+    blogUrl: "https://300md72.com/entry/2026-%EC%A7%80%EC%97%AD%EC%82%AC%EB%9E%91-%ED%9C%B4%EA%B0%80%EC%A7%80%EC%9B%90%EB%B0%98%EA%B0%92%EC%97%AC%ED%96%89-%ED%95%98%EB%B0%98%EA%B8%B0-%ED%99%95%EB%8C%80-%EB%8C%80%EC%83%81%EA%B3%BC-%ED%99%98%EA%B8%89%EC%95%A1%EC%9D%80",
+    officialUrl: "https://korean.visitkorea.or.kr/dgtourcard/tour50.do"
   }
 ];
