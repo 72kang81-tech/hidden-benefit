@@ -508,5 +508,15 @@ const benefits = [
     keywords: "신생아 특례대출 소득기준 완화 그런데 거절당할까",
     blogUrl: "https://300md72.com/entry/%EC%8B%A0%EC%83%9D%EC%95%84-%ED%8A%B9%EB%A1%80%EB%8C%80%EC%B6%9C-%EC%86%8C%EB%93%9D%EA%B8%B0%EC%A4%80-%EC%99%84%ED%99%94-%EA%B7%B8%EB%9F%B0%EB%8D%B0-%EC%99%9C-%EA%B1%B0%EC%A0%88%EB%8B%B9%ED%95%A0%EA%B9%8C",
     officialUrl: "https://www.myhome.go.kr/hws/portal/cont/selectBabySpecialCaseStepStoneLoneView.do"
+  },
+  {
+    title: "에너지바우처 신청기간 12월 31일까지, 대상과 금액 총정리",
+    summary: "2026년 에너지바우처는 12월 31일까지 신청할 수 있고, 10월부터는 동절기 사용기간으로 넘어갑니다. 가구원수별 지원금액과 대상 조건, 복지로 온라인 신청 방법을 정리했습니다.",
+    target: "생계·의료·주거·교육급여 수급자 중 세대원에 노인·영유아·장애인·임산부·중증질환자·한부모·다자녀 중 하나가 포함된 가구",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "에너지바우처 신청기간 12월 31일까지 대상과 금액",
+    blogUrl: "https://300md72.com/entry/%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84-12%EC%9B%94-31%EC%9D%BC%EA%B9%8C%EC%A7%80-%EB%8C%80%EC%83%81%EA%B3%BC-%EA%B8%88%EC%95%A1-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.energyv.or.kr/"
   }
 ];
