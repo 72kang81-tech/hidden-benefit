@@ -498,5 +498,15 @@ const benefits = [
     keywords: "2026 지역사랑 휴가지원 반값여행 하반기 확대",
     blogUrl: "https://300md72.com/entry/2026-%EC%A7%80%EC%97%AD%EC%82%AC%EB%9E%91-%ED%9C%B4%EA%B0%80%EC%A7%80%EC%9B%90%EB%B0%98%EA%B0%92%EC%97%AC%ED%96%89-%ED%95%98%EB%B0%98%EA%B8%B0-%ED%99%95%EB%8C%80-%EB%8C%80%EC%83%81%EA%B3%BC-%ED%99%98%EA%B8%89%EC%95%A1%EC%9D%80",
     officialUrl: "https://korean.visitkorea.or.kr/dgtourcard/tour50.do"
+  },
+  {
+    title: "신생아 특례대출 소득기준 완화, 그런데 왜 거절당할까",
+    summary: "대상: 2023년 이후 출생아를 둔 무주택 가구(출생연도 기준은 계속 확대되는 편이라 원문 확인 필요)",
+    target: "2023년 이후 출생아를 둔 무주택 가구(출생연도 기준은 계속 확대되는 편이라 원문 확인 필요)",
+    category: "주거",
+    status: "현재 확인 가능",
+    keywords: "신생아 특례대출 소득기준 완화 그런데 거절당할까",
+    blogUrl: "https://300md72.com/entry/%EC%8B%A0%EC%83%9D%EC%95%84-%ED%8A%B9%EB%A1%80%EB%8C%80%EC%B6%9C-%EC%86%8C%EB%93%9D%EA%B8%B0%EC%A4%80-%EC%99%84%ED%99%94-%EA%B7%B8%EB%9F%B0%EB%8D%B0-%EC%99%9C-%EA%B1%B0%EC%A0%88%EB%8B%B9%ED%95%A0%EA%B9%8C",
+    officialUrl: "https://www.myhome.go.kr/hws/portal/cont/selectBabySpecialCaseStepStoneLoneView.do"
   }
 ];
