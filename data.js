@@ -518,5 +518,15 @@ const benefits = [
     keywords: "에너지바우처 신청기간 12월 31일까지 대상과 금액",
     blogUrl: "https://300md72.com/entry/%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84-12%EC%9B%94-31%EC%9D%BC%EA%B9%8C%EC%A7%80-%EB%8C%80%EC%83%81%EA%B3%BC-%EA%B8%88%EC%95%A1-%EC%B4%9D%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.energyv.or.kr/"
+  },
+  {
+    title: "국민취업지원제도 구직촉진수당, 월 60만원 받는 조건",
+    summary: "대상: 만 15~69세 구직자 중 가구·본인 소득이 중위소득 60% 이하(청년은 만 15~34세, 가구소득 중위소득 120% 이하)",
+    target: "만 15~69세 구직자 중 가구·본인 소득이 중위소득 60% 이하(청년은 만 15~34세, 가구소득 중위소득 120% 이하)",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "국민취업지원제도 구직촉진수당 60만원 받는 조건",
+    blogUrl: "https://300md72.com/entry/%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84-%EA%B5%AC%EC%A7%81%EC%B4%89%EC%A7%84%EC%88%98%EB%8B%B9-%EC%9B%94-60%EB%A7%8C%EC%9B%90-%EB%B0%9B%EB%8A%94-%EC%A1%B0%EA%B1%B4",
+    officialUrl: "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316"
   }
 ];
