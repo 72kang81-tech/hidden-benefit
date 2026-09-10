@@ -528,5 +528,15 @@ const benefits = [
     keywords: "국민취업지원제도 구직촉진수당 60만원 받는 조건",
     blogUrl: "https://300md72.com/entry/%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84-%EA%B5%AC%EC%A7%81%EC%B4%89%EC%A7%84%EC%88%98%EB%8B%B9-%EC%9B%94-60%EB%A7%8C%EC%9B%90-%EB%B0%9B%EB%8A%94-%EC%A1%B0%EA%B1%B4",
     officialUrl: "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000316"
+  },
+  {
+    title: "장애인 활동지원 서비스, 신청대상과 월 지원한도 총정리",
+    summary: "장애인 활동지원 서비스는 만 6~65세 미만 등록장애인이면 소득과 관계없이 상시 신청할 수 있습니다. 종합조사 구간별 월 지원한도와 본인부담금, 복지로 신청방법을 정리했습니다.",
+    target: "만 6세 이상 만 65세 미만 등록장애인(소득기준 없음)",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "장애인 활동지원 서비스 신청대상과 지원한도 총정리",
+    blogUrl: "https://300md72.com/entry/%EC%9E%A5%EC%95%A0%EC%9D%B8-%ED%99%9C%EB%8F%99%EC%A7%80%EC%9B%90-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%8B%A0%EC%B2%AD%EB%8C%80%EC%83%81%EA%B3%BC-%EC%9B%94-%EC%A7%80%EC%9B%90%ED%95%9C%EB%8F%84-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.ableservice.or.kr/main.do"
   }
 ];
