@@ -5,17 +5,17 @@
 동작 원칙(사용자 지정):
   1. 하루 7번(08:00 / 10:30 / 13:00 / 15:00 / 17:20 / 19:40 / 22:00, KST 기준) 실행된다.
      실제 실행 시각은 cron이 트리거하지만, 이 스크립트가 시작하자마자 0~9분 무작위로
-     대기(jitter)한 뒤 발행해서 매일 정확히 같은 분(分)에 올라가지 않게 한다.
+     대기(jitter)한 뒤 발행해서 매일 정확히 같은 분에 올라가지 않게 한다.
   2. pairs.json(=sync.py가 관리하는 티스토리/블로그스팟 매칭 결과)을 보고,
      "아직 스레드에 한 번도 소개 안 된 새 블로그 글"이 있으면 그 글을 최우선으로 홍보한다.
   3. 새 글이 없으면, 바로 전에 홍보하던 글의 '다른 관점' 문구를 이어서 올린다.
-     단, 한 블로그 글당 관점이 다른 문구는 최대 3개까지만 쒨다.
-  4. 3개를 다 쓁는데 새 글도 없으면, 블로그 내용과 무관한 일반 건강 팁(tips.json)을 올린다.
+     단, 한 블로그 글당 관점이 다른 문구는 최대 3개까지만 쓴다.
+  4. 3개를 다 썼는데 새 글도 없으면, 블로그 내용과 무관한 일반 건강 팁(tips.json)을 올린다.
 
-관점 문구(angles)는 원래 블로그 글쓰기 스키이 발행 시점에 함께 만들어서
-pairs.json의 해당 글 레코드에 `angles: ["...", "...", "..."]`로 채워주는 것을 전제로
-설계했다. 아직 그 연동이 없는 동안에는, 이 스크립트가 제목을 기반으로 3가지 톤의
-문구를 자동으로 만들어 대신 사용한다 (아래 AUTO_ANGLE_TEMPLATES) — 나중에 스키이
+관점 문구(angles)는 원래 블로그 글쓰기 스킬이 발행 시점에 함께 만들어서
+pairs.json의 해당 글 레코드에 angles 배열로 채워주는 것을 전제로 설계했다.
+아직 그 연동이 없는 동안에는, 이 스크립트가 제목을 기반으로 3가지 톤의
+문구를 자동으로 만들어 대신 사용한다 (아래 AUTO_ANGLE_TEMPLATES) — 나중에 스킬이
 angles를 채워주기 시작하면 자동으로 그쪽을 우선 사용한다.
 
 필요한 GitHub Secrets: THREADS_ACCESS_TOKEN, THREADS_USER_ID
@@ -37,15 +37,15 @@ STATE_PATH = os.path.join(BASE_DIR, "threads_state.json")
 
 API_BASE = os.environ.get("THREADS_API_BASE", "https://graph.threads.net/v1.0")
 
-JITTER_MAX_SEC = 9 * 60  # 0~9분 무작위 대기 (매일 다른 시각처럼 보이게)
-PUBLISH_WAIT_SEC = 30    # 컨테이너 생성 후 발행 전 대기 (Threads 컨테이너 처리 시간)
+JITTER_MAX_SEC = 9 * 60
+PUBLISH_WAIT_SEC = 30
 
 SUFFIX = "\n\n[500md87 건강블로그 새 글]"
 
 AUTO_ANGLE_TEMPLATES = [
     lambda title: title,
     lambda title: f"오늘 다시 짚어보는 이야기 — {title}",
-    lambda title: f"이거 놓치면 아쉜워요 — {title}",
+    lambda title: f"이거 놓치면 아쉬워요 — {title}",
 ]
 
 
@@ -123,7 +123,6 @@ def build_promo_text(rec, idx):
 
 
 def choose_action(pairs, state):
-    """무엇을 올릴지 결정한다. 반환: ('promo', sid, idx) 또는 ('tip', None, None)"""
     candidates = [(sid, rec) for sid, rec in pairs.items() if "tistory" in rec]
     newest_sid = None
     if candidates:
@@ -131,7 +130,6 @@ def choose_action(pairs, state):
 
     current_sid = state.get("current_source_id") or ""
 
-    # 아직 한 번도 스레드에 소개 안 된 새 글이 있으면 그 글로 전환 (최우선)
     if newest_sid and newest_sid != current_sid:
         already_started = pairs[newest_sid].get("threads_angles_posted", 0) > 0
         if not already_started:
@@ -155,7 +153,7 @@ def main():
         return
 
     jitter = random.randint(0, JITTER_MAX_SEC)
-    log(f"{jitter}초 무작위 대기 후 발행합니다 (매일 다른 시각처럼 보이게 하기 위함).")
+    log(f"{jitter}초 무작위 대기 후 발행합니다.")
     time.sleep(jitter)
 
     pairs = load_json(PAIRS_PATH, {})
@@ -178,7 +176,7 @@ def main():
         log(f"완료: {media_id}")
     else:
         if not tips:
-            log("일반 팁 목록(tips.json)이 비어 있어 올릴 내용이 없습니다.")
+            log("일반 팁 목록이 비어 있어 올릴 내용이 없습니다.")
             return
         tip_index = state.get("tip_index", 0) % len(tips)
         text = tips[tip_index]
