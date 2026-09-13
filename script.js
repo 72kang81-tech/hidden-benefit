@@ -24,17 +24,22 @@ function escapeHtml(value) {
 
 function renderPromo() {
   const item = typeof promos !== "undefined" ? promos[selected] : null;
-  if (!item) { promo.hidden = true; promo.innerHTML = ""; return; }
+  if (!item || !item.url) { promo.hidden = true; promo.innerHTML = ""; return; }
   promo.hidden = false;
-  const link = item.url
-    ? `<a class="button primary" href="${encodeURI(item.url)}">확인하러 가기 <span>→</span></a>`
-    : `<span class="button disabled" aria-disabled="true">준비 중</span>`;
+  const link = `<a class="button primary promo-link" data-category="${escapeHtml(selected)}" data-title="${escapeHtml(item.title)}" href="${encodeURI(item.url)}">확인하러 가기 <span>→</span></a>`;
   promo.innerHTML = `<div class="promo-card">
     <span class="promo-label">${escapeHtml(item.label)}</span>
     <h3>${escapeHtml(item.title)}</h3>
     <p>${escapeHtml(item.desc)}</p>
     ${link}
   </div>`;
+  track("promo_impression", { promo_category: selected, promo_title: item.title });
+  promo.querySelector(".promo-link")?.addEventListener("click", event => {
+    track("promo_click", {
+      promo_category: event.currentTarget.dataset.category,
+      promo_title: event.currentTarget.dataset.title
+    });
+  });
 }
 
 function render() {
