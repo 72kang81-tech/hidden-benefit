@@ -3,8 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="나에게 필요한 정부 지원금과 생활 혜택을 쉽고 빠르게 찾아보세요.">
-  <title>숨은혜택</title>
+  <meta name="description" content="나이, 상황, 관심 분야에 맞는 정부 지원금과 생활 혜택을 찾고 공식 신청처까지 확인하세요.">
+  <meta property="og:title" content="숨은혜택 | 놓치기 쉬운 정부지원금 찾기">
+  <meta property="og:description" content="내 상황에 맞는 혜택을 빠르게 찾고 공식 신청처까지 확인하세요.">
+  <meta property="og:url" content="https://benefit.300md72.com/">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://benefit.300md72.com/">
+  <title>숨은혜택 | 놓치기 쉬운 정부지원금 찾기</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -13,12 +18,16 @@
   <header class="hero">
     <nav class="nav" aria-label="주요 메뉴">
       <a class="brand" href="#top" aria-label="숨은혜택 처음으로"><span>숨은</span>혜택</a>
-      <a class="blog-link" href="https://300md72.com">블로그 보기</a>
+      <div class="nav-links">
+        <a href="#finder-title">혜택 찾기</a>
+        <a href="https://300md72.com">상세 가이드</a>
+        <a href="https://www.threads.com/@sss572sss" rel="me">Threads</a>
+      </div>
     </nav>
     <div class="hero-copy" id="top">
       <p class="eyebrow">몰라서 놓치는 혜택이 없도록</p>
       <h1>나에게 필요한 혜택,<br><strong>쉽게 찾아보세요.</strong></h1>
-      <p class="intro">지원금 이름이나 ‘청년’, ‘주거’, ‘의료비’처럼 필요한 말을 입력해 보세요.</p>
+      <p class="intro">54개 이상의 혜택을 한곳에서 비교하고, 공식 신청처까지 바로 확인하세요.</p>
       <label class="search-box" for="search">
         <span aria-hidden="true">⌕</span>
         <input id="search" type="search" placeholder="예: 주거급여, 저소득 가구" autocomplete="off">
@@ -54,6 +63,21 @@
       <div id="promo" class="promo" hidden></div>
     </section>
 
+    <section class="quick-finder" aria-labelledby="quick-title">
+      <div>
+        <p class="eyebrow">30초 맞춤 찾기</p>
+        <h2 id="quick-title">내 상황과 가까운 혜택부터 볼까요?</h2>
+        <p>선택 내용은 저장하거나 전송하지 않습니다.</p>
+      </div>
+      <div class="quick-options" aria-label="상황 선택">
+        <button type="button" data-term="청년">청년</button>
+        <button type="button" data-term="신혼부부">신혼부부</button>
+        <button type="button" data-term="저소득">생활비 부담</button>
+        <button type="button" data-term="소상공인">소상공인</button>
+        <button type="button" data-term="장애인">장애·돌봄</button>
+      </div>
+    </section>
+
     <section class="notice" aria-labelledby="notice-title">
       <div class="notice-icon" aria-hidden="true">!</div>
       <div>
@@ -66,8 +90,11 @@
   <footer>
     <a class="brand" href="#top"><span>숨은</span>혜택</a>
     <p>꼭 필요한 생활 혜택을 알기 쉽게 전합니다.</p>
+    <p><a href="https://300md72.com">상세 가이드</a> · <a href="https://www.threads.com/@sss572sss" rel="me">Threads</a></p>
     <p class="fine">이 사이트는 정부기관이 운영하는 공식 사이트가 아닙니다.</p>
   </footer>
+  <script src="site.config.js"></script>
+  <script src="analytics.js"></script>
   <script src="data.js"></script>
   <script src="promos.js"></script>
   <script src="script.js"></script>
