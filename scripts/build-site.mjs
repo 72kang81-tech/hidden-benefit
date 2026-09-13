@@ -34,7 +34,7 @@ function page(item, slug) {
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${title} | 숨은혜택</title><meta name="description" content="${summary}"><link rel="canonical" href="${canonical}">
 <meta property="og:type" content="article"><meta property="og:title" content="${title}"><meta property="og:description" content="${summary}"><meta property="og:url" content="${canonical}">
-<link rel="stylesheet" href="../../style.css"><script type="application/ld+json">${jsonLd}</script></head>
+<link rel="stylesheet" href="../../style.css"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8974162710750438" crossorigin="anonymous"></script><script type="application/ld+json">${jsonLd}</script></head>
 <body><header class="hero compact"><nav class="nav"><a class="brand" href="../../"><span>숨은</span>혜택</a><a class="blog-link" href="../../">다른 혜택 찾기</a></nav></header>
 <main class="detail"><p class="eyebrow">${escapeHtml(item.category)}</p><h1>${title}</h1><p class="detail-summary">${summary}</p>
 <section class="detail-box"><h2>누가 확인하면 좋을까요?</h2><p>${target}</p></section>
