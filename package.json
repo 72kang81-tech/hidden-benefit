@@ -1,0 +1,8 @@
+{
+  "name": "hidden-benefit",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node --check script.js && node --check analytics.js && node --check scripts/build-site.mjs"
+  }
+}
