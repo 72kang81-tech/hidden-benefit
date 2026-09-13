@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://benefit.300md72.com/sitemap.xml
