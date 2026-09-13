@@ -44,11 +44,9 @@ BENEFIT_SITE_URL = "https://benefit.300md72.com/"
 # 절대 이 리스트에 {link}나 {benefit_link}를 넣지 않는다 — 본문에는 링크를 넣지 않는
 # 게 규칙이다. 링크는 REPLY_TEMPLATES(고정 댓글)에서만 쓴다.
 BODY_TEMPLATES = [
-    "{title} 이거 모르면 그냥 날아감.\n\n{meta}\n\n근데 조건이랑 신청 안내가 은근 헷갈림. 놓치기 전에 확인해봐.\n\n{tags}",
-    "이거 아직도 모르는 사람 있음?\n\n{title}\n\n{meta}\n\n자세한 조건은 다 안 적음.\n\n{tags}",
-    "요즘 물가 때문에 다들 힘든 시기.\n\n{title}\n\n{meta}\n\n방법 알아두면 손해 안 봄.\n\n{tags}",
-    "{title}\n\n{meta}\n\n이거 기한 지나면 못 받음. 확인 안 하면 나만 손해.\n\n{tags}",
-    "다들 이거 확인했나 모르겠음.\n\n{title}\n\n{meta}\n\n자세한 내용은 더 있는데 다 못 적음.\n\n{tags}",
+    "{title}\n\n{meta}\n\n대상 여부는 소득·가구·신청 시점에 따라 달라질 수 있어요. 공식 조건까지 함께 확인해보세요.\n\n{tags}",
+    "놓치기 쉬운 생활 혜택입니다.\n\n{title}\n\n{meta}\n\n해당될 가능성이 있다면 신청 기간부터 확인해보세요.\n\n{tags}",
+    "오늘 확인할 정책 혜택\n\n{title}\n\n{meta}\n\n핵심 조건과 공식 신청처를 정리했습니다.\n\n{tags}",
 ]
 
 # 블로그 글 링크({link})와 베네핏 사이트 링크({benefit_link})를 항상 둘 다 포함한다.
