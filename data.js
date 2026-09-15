@@ -558,5 +558,15 @@ const benefits = [
     keywords: "국가공무원 면접 복장 바뀐다 10월부터 정장구두",
     blogUrl: "https://300md72.com/entry/%EA%B5%AD%EA%B0%80%EA%B3%B5%EB%AC%B4%EC%9B%90-%EB%A9%B4%EC%A0%91-%EB%B3%B5%EC%9E%A5-%EB%B0%94%EB%80%90%EB%8B%A4%E2%80%A610%EC%9B%94%EB%B6%80%ED%84%B0-%EC%A0%95%EC%9E%A5%EA%B5%AC%EB%91%90%C2%B7%EB%84%A5%ED%83%80%EC%9D%B4-%EA%B8%88%EC%A7%80",
     officialUrl: "https://www.mpm.go.kr/"
+  },
+  {
+    title: "공무원 초과근무 1일 상한 폐지, 수당은 얼마나 늘어날까?",
+    summary: "공무원이 하루 4시간을 넘겨 초과근무하더라도 실제로 인정받은 시간만큼 수당을 받을 수 있게 됩니다. 기존에는 하루에 6시간이나 7시간을 추가로 근무해도 일반적인 시간외근무 인정시간은 최대 4시간이었습니다.다만 모든 초과근무 제한이 사라지는 것은 아닙니다. 일반적인 초과",
+    target: "실제 인정 대상 초과근무: 6시간 × 5일 = 30시간",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "공무원 초과근무 1일 상한 폐지 수당은",
+    blogUrl: "https://300md72.com/entry/%EA%B3%B5%EB%AC%B4%EC%9B%90-%EC%B4%88%EA%B3%BC%EA%B7%BC%EB%AC%B4-1%EC%9D%BC-%EC%83%81%ED%95%9C-%ED%8F%90%EC%A7%80-%EC%88%98%EB%8B%B9%EC%9D%80-%EC%96%BC%EB%A7%88%EB%82%98-%EB%8A%98%EC%96%B4%EB%82%A0%EA%B9%8C",
+    officialUrl: "https://www.mpm.go.kr/mpm/info/resultPay/bizPay06/"
   }
 ];
