@@ -2,10 +2,10 @@ name: Hourly Threads Autopost
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    # KST 08:00~22:00 = UTC 23:00, 00:00~13:00
+    - cron: "0 0-13,23 * * *"
   workflow_dispatch: {}
 
-# 같은 저장소에서 예약 실행과 수동 실행이 겹쳐 동일 글이 중복 게시되는 것을 방지합니다.
 concurrency:
   group: threads-autopost-main
   cancel-in-progress: false
@@ -24,6 +24,10 @@ jobs:
         with:
           python-version: "3.11"
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
       - name: 새 글 확인 후 쓰레드에 게시
         env:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
@@ -33,14 +37,17 @@ jobs:
       - name: 새 글 확인 후 benefit 카드 연동
         run: python automation/gov-thread-autopost/benefit_autolink.py
 
-      - name: 혜택 상세페이지와 사이트맵 생성
+      - name: 이미지 생성 의존성 설치
+        run: npm install --no-audit --no-fund
+
+      - name: 혜택 상세페이지·사이트맵·SNS 카드 생성
         run: npm run build
 
-      - name: 변경사항 커밋 (state, data.js)
+      - name: 변경사항 커밋
         if: always()
         run: |
           git config user.name "gov-thread-autopost-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add automation/gov-thread-autopost/state.json automation/gov-thread-autopost/benefit_state.json data.js benefits sitemap.xml
+          git add automation/gov-thread-autopost/state.json automation/gov-thread-autopost/benefit_state.json data.js benefits sitemap.xml social package-lock.json
           git diff --cached --quiet || git commit -m "state/카드 업데이트: 자동 게시·연동 기록"
           git push
