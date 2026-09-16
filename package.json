@@ -2,7 +2,10 @@
   "name": "hidden-benefit",
   "private": true,
   "scripts": {
-    "build": "node scripts/build-site.mjs",
-    "check": "node --check script.js && node --check analytics.js && node --check scripts/build-site.mjs"
+    "build": "node scripts/build-site.mjs && node scripts/build-social.mjs",
+    "check": "node --check script.js && node --check analytics.js && node --check scripts/build-site.mjs && node --check scripts/build-social.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.34.4"
   }
 }
