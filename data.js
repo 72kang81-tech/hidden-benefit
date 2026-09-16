@@ -568,5 +568,15 @@ const benefits = [
     keywords: "공무원 초과근무 1일 상한 폐지 수당은",
     blogUrl: "https://300md72.com/entry/%EA%B3%B5%EB%AC%B4%EC%9B%90-%EC%B4%88%EA%B3%BC%EA%B7%BC%EB%AC%B4-1%EC%9D%BC-%EC%83%81%ED%95%9C-%ED%8F%90%EC%A7%80-%EC%88%98%EB%8B%B9%EC%9D%80-%EC%96%BC%EB%A7%88%EB%82%98-%EB%8A%98%EC%96%B4%EB%82%A0%EA%B9%8C",
     officialUrl: "https://www.mpm.go.kr/mpm/info/resultPay/bizPay06/"
+  },
+  {
+    title: "2027년 9급 공무원 월급 300만원, 기본급과 수당은 얼마일까",
+    summary: "2027년 9급 공무원 초임 월급 300만원의 실제 의미를 정리했습니다. 2026년 확정 봉급표 기준 기본급과 수당 구성, 실수령액 계산 방법, 2027년 예산안 확정 현황까지 인사혁신처 공식 자료로 확인합니다.",
+    target: "2026~2027년에 신규 임용되는 9급(7~9급 저연차 포함) 공무원 1호봉",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "2027년 9급 공무원 월급 300만원 기본급과",
+    blogUrl: "https://300md72.com/entry/2027%EB%85%84-9%EA%B8%89-%EA%B3%B5%EB%AC%B4%EC%9B%90-%EC%9B%94%EA%B8%89-300%EB%A7%8C%EC%9B%90-%EA%B8%B0%EB%B3%B8%EA%B8%89%EA%B3%BC-%EC%88%98%EB%8B%B9%EC%9D%80-%EC%96%BC%EB%A7%88%EC%9D%BC%EA%B9%8C",
+    officialUrl: "https://www.mpm.go.kr/mpm/info/resultPay/bizPay01/"
   }
 ];
