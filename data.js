@@ -578,5 +578,15 @@ const benefits = [
     keywords: "2027년 9급 공무원 월급 300만원 기본급과",
     blogUrl: "https://300md72.com/entry/2027%EB%85%84-9%EA%B8%89-%EA%B3%B5%EB%AC%B4%EC%9B%90-%EC%9B%94%EA%B8%89-300%EB%A7%8C%EC%9B%90-%EA%B8%B0%EB%B3%B8%EA%B8%89%EA%B3%BC-%EC%88%98%EB%8B%B9%EC%9D%80-%EC%96%BC%EB%A7%88%EC%9D%BC%EA%B9%8C",
     officialUrl: "https://www.mpm.go.kr/mpm/info/resultPay/bizPay01/"
+  },
+  {
+    title: "인간공학기사 쓸모 있을까? 취업처·우대 직무·연봉 현실",
+    summary: "대상 자격: 한국산업인력공단(Q-net)이 시행하는 국가기술자격(기사 등급)",
+    target: "대상 자격: 한국산업인력공단(Q-net)이 시행하는 국가기술자격(기사 등급)",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "인간공학기사 쓸모 있을까 취업처 우대 직무",
+    blogUrl: "https://300md72.com/entry/%EC%9D%B8%EA%B0%84%EA%B3%B5%ED%95%99%EA%B8%B0%EC%82%AC-%EC%93%B8%EB%AA%A8-%EC%9E%88%EC%9D%84%EA%B9%8C-%EC%B7%A8%EC%97%85%EC%B2%98%C2%B7%EC%9A%B0%EB%8C%80-%EC%A7%81%EB%AC%B4%C2%B7%EC%97%B0%EB%B4%89-%ED%98%84%EC%8B%A4",
+    officialUrl: "https://www.q-net.or.kr/crf021.do?id=crf02101&scheType=03"
   }
 ];
