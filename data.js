@@ -588,5 +588,15 @@ const benefits = [
     keywords: "인간공학기사 쓸모 있을까 취업처 우대 직무",
     blogUrl: "https://300md72.com/entry/%EC%9D%B8%EA%B0%84%EA%B3%B5%ED%95%99%EA%B8%B0%EC%82%AC-%EC%93%B8%EB%AA%A8-%EC%9E%88%EC%9D%84%EA%B9%8C-%EC%B7%A8%EC%97%85%EC%B2%98%C2%B7%EC%9A%B0%EB%8C%80-%EC%A7%81%EB%AC%B4%C2%B7%EC%97%B0%EB%B4%89-%ED%98%84%EC%8B%A4",
     officialUrl: "https://www.q-net.or.kr/crf021.do?id=crf02101&scheType=03"
+  },
+  {
+    title: "중소기업 취업자 소득세 감면 신청 못 했다면? 환급 방법과 대상 확인",
+    summary: "대상: 만 15~34세 청년, 만 60세 이상 고령자, 장애인, 경력단절 근로자",
+    target: "만 15~34세 청년, 만 60세 이상 고령자, 장애인, 경력단절 근로자",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "중소기업 취업자 소득세 감면 신청 했다면",
+    blogUrl: "https://300md72.com/entry/%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85-%EC%B7%A8%EC%97%85%EC%9E%90-%EC%86%8C%EB%93%9D%EC%84%B8-%EA%B0%90%EB%A9%B4-%EC%8B%A0%EC%B2%AD-%EB%AA%BB-%ED%96%88%EB%8B%A4%EB%A9%B4-%ED%99%98%EA%B8%89-%EB%B0%A9%EB%B2%95%EA%B3%BC-%EB%8C%80%EC%83%81-%ED%99%95%EC%9D%B8",
+    officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40632&cntntsId=239023"
   }
 ];
