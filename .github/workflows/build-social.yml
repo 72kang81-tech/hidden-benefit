@@ -53,4 +53,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh generated benefit and social assets"
+          git pull --rebase origin main
           git push
