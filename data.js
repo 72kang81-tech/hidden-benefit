@@ -598,5 +598,15 @@ const benefits = [
     keywords: "중소기업 취업자 소득세 감면 신청 했다면",
     blogUrl: "https://300md72.com/entry/%EC%A4%91%EC%86%8C%EA%B8%B0%EC%97%85-%EC%B7%A8%EC%97%85%EC%9E%90-%EC%86%8C%EB%93%9D%EC%84%B8-%EA%B0%90%EB%A9%B4-%EC%8B%A0%EC%B2%AD-%EB%AA%BB-%ED%96%88%EB%8B%A4%EB%A9%B4-%ED%99%98%EA%B8%89-%EB%B0%A9%EB%B2%95%EA%B3%BC-%EB%8C%80%EC%83%81-%ED%99%95%EC%9D%B8",
     officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40632&cntntsId=239023"
+  },
+  {
+    title: "종부세 합산배제 신고기간 9월 30일까지 꼭 신청해야 하는 사람",
+    summary: "종합부동산세 합산배제와 과세특례 신고 기간은 9월 16일부터 30일까지입니다. 임대주택 보유자와 부부 공동명의 1주택자가 신고 대상인지, 홈택스 신고 방법과 신고 후 주의할 점을 확인해보세요.",
+    target: "신고 대상: 사업자등록을 한 임대주택 보유자, 부부 공동명의 1주택자",
+    category: "주거",
+    status: "현재 확인 가능",
+    keywords: "종부세 합산배제 신고기간 9월 30일까지 신청해야",
+    blogUrl: "https://300md72.com/entry/%EC%A2%85%EB%B6%80%EC%84%B8-%ED%95%A9%EC%82%B0%EB%B0%B0%EC%A0%9C-%EC%8B%A0%EA%B3%A0%EA%B8%B0%EA%B0%84-9%EC%9B%94-30%EC%9D%BC%EA%B9%8C%EC%A7%80-%EA%BC%AD-%EC%8B%A0%EC%B2%AD%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%82%AC%EB%9E%8C",
+    officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6539&cntntsId=7966"
   }
 ];
