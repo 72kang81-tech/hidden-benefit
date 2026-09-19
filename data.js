@@ -608,5 +608,15 @@ const benefits = [
     keywords: "종부세 합산배제 신고기간 9월 30일까지 신청해야",
     blogUrl: "https://300md72.com/entry/%EC%A2%85%EB%B6%80%EC%84%B8-%ED%95%A9%EC%82%B0%EB%B0%B0%EC%A0%9C-%EC%8B%A0%EA%B3%A0%EA%B8%B0%EA%B0%84-9%EC%9B%94-30%EC%9D%BC%EA%B9%8C%EC%A7%80-%EA%BC%AD-%EC%8B%A0%EC%B2%AD%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-%EC%82%AC%EB%9E%8C",
     officialUrl: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6539&cntntsId=7966"
+  },
+  {
+    title: "카카오톡 국민연금 가입내역 조회, 임의가입은 언제 가능할까",
+    summary: "카카오톡에서 국민연금 가입내역을 확인할 수 있는 서비스가 시작됐습니다. 별도의 국민연금 앱을 찾지 않아도 카카오톡의 AI 국민비서에 “내 국민연금 가입내역 조회해줘”라고 입력해 확인하는 방식입니다.",
+    target: "국민연금공단: 임의가입자 대상 및 제외 기준",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "카카오톡 국민연금 가입내역 조회 임의가입은 언제",
+    blogUrl: "https://300md72.com/entry/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88-%EA%B0%80%EC%9E%85%EB%82%B4%EC%97%AD-%EC%A1%B0%ED%9A%8C-%EC%9E%84%EC%9D%98%EA%B0%80%EC%9E%85%EC%9D%80-%EC%96%B8%EC%A0%9C-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C",
+    officialUrl: "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=129511"
   }
 ];
