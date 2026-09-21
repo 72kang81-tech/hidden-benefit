@@ -618,5 +618,15 @@ const benefits = [
     keywords: "카카오톡 국민연금 가입내역 조회 임의가입은 언제",
     blogUrl: "https://300md72.com/entry/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1-%EA%B5%AD%EB%AF%BC%EC%97%B0%EA%B8%88-%EA%B0%80%EC%9E%85%EB%82%B4%EC%97%AD-%EC%A1%B0%ED%9A%8C-%EC%9E%84%EC%9D%98%EA%B0%80%EC%9E%85%EC%9D%80-%EC%96%B8%EC%A0%9C-%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C",
     officialUrl: "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=129511"
+  },
+  {
+    title: "코레일 청년 체험형 인턴 2026 하반기, 9월 30일 오후 2시 마감",
+    summary: "2026년 하반기 한국철도공사 청년 체험형 인턴사원 원서접수가 9월 23일부터 9월 30일 오후 2시까지 진행됩니다. 지원서는 온라인으로만 제출하며 방문 접수는 받지 않습니다.",
+    target: "2026년 하반기 한국철도공사 청년 체험형 인턴사원 원서접수가 9월 23일부터 9월 30일 오후 2시까지 진행됩니다. 지원서는 온라인으로만 제출하며 방문 접수는 받지 않습니다.",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "코레일 청년 체험형 인턴 2026 하반기",
+    blogUrl: "https://300md72.com/entry/%EC%BD%94%EB%A0%88%EC%9D%BC-%EC%B2%AD%EB%85%84-%EC%B2%B4%ED%97%98%ED%98%95-%EC%9D%B8%ED%84%B4-2026-%ED%95%98%EB%B0%98%EA%B8%B0-9%EC%9B%94-30%EC%9D%BC-%EC%98%A4%ED%9B%84-2%EC%8B%9C-%EB%A7%88%EA%B0%90",
+    officialUrl: "https://300md72.com/entry/%EC%BD%94%EB%A0%88%EC%9D%BC-%EC%B2%AD%EB%85%84-%EC%B2%B4%ED%97%98%ED%98%95-%EC%9D%B8%ED%84%B4-2026-%ED%95%98%EB%B0%98%EA%B8%B0-9%EC%9B%94-30%EC%9D%BC-%EC%98%A4%ED%9B%84-2%EC%8B%9C-%EB%A7%88%EA%B0%90"
   }
 ];
