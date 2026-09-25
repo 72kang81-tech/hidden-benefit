@@ -628,5 +628,15 @@ const benefits = [
     keywords: "코레일 청년 체험형 인턴 2026 하반기",
     blogUrl: "https://300md72.com/entry/%EC%BD%94%EB%A0%88%EC%9D%BC-%EC%B2%AD%EB%85%84-%EC%B2%B4%ED%97%98%ED%98%95-%EC%9D%B8%ED%84%B4-2026-%ED%95%98%EB%B0%98%EA%B8%B0-9%EC%9B%94-30%EC%9D%BC-%EC%98%A4%ED%9B%84-2%EC%8B%9C-%EB%A7%88%EA%B0%90",
     officialUrl: "https://300md72.com/entry/%EC%BD%94%EB%A0%88%EC%9D%BC-%EC%B2%AD%EB%85%84-%EC%B2%B4%ED%97%98%ED%98%95-%EC%9D%B8%ED%84%B4-2026-%ED%95%98%EB%B0%98%EA%B8%B0-9%EC%9B%94-30%EC%9D%BC-%EC%98%A4%ED%9B%84-2%EC%8B%9C-%EB%A7%88%EA%B0%90"
+  },
+  {
+    title: "해상교통관제사 되는 법 자격요건과 채용절차 완벽정리",
+    summary: "5급 이상 항해사면허와 승선경력 1년이면 해양수산부 경력경쟁채용시험으로 지원할 수 있는 해상교통관제사 자격요건과 채용 절차를 정리했습니다.",
+    target: "5급 이상 항해사면허 소지자 중 승선경력 1년 이상인 사람",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "해상교통관제사 VTS관제사 해양수산부경력채용 항해사면허 승선경력",
+    blogUrl: "https://300md72.com/entry/해상-교통-관제사-되는-방법-하는-일-연봉-모두-알기",
+    officialUrl: "https://www.ilovesea.or.kr/newsletter/04/career.do"
   }
 ];
