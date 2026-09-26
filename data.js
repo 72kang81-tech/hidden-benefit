@@ -638,5 +638,15 @@ const benefits = [
     keywords: "해상교통관제사 VTS관제사 해양수산부경력채용 항해사면허 승선경력",
     blogUrl: "https://300md72.com/entry/해상-교통-관제사-되는-방법-하는-일-연봉-모두-알기",
     officialUrl: "https://www.ilovesea.or.kr/newsletter/04/career.do"
+  },
+  {
+    title: "에너지바우처 2026 겨울, 나도 받을 수 있을까? 자격 판단표",
+    summary: "여름에 에너지바우처를 다 못 썼다면, 겨울에 몰아서 쓸 수 있을까요? 2026년부터 정답이 바뀌었습니다. 그리고 신청 자격도 생각보다 헷갈리는 부분이 있어서, \"나는 받을 수 있는지\" 판단표로 먼저 확인하고 시작하는 게 빠릅니다.",
+    target: "도시가스가 아닌 등유·LPG를 쓰는 가구(도서·산간 지역 등)도 새로 지원 대상에 포함됐습니다.",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "에너지바우처 2026 겨울 나도 받을 있을까",
+    blogUrl: "https://300md72.com/entry/%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-2026-%EA%B2%A8%EC%9A%B8-%EB%82%98%EB%8F%84-%EB%B0%9B%EC%9D%84-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C-%EC%9E%90%EA%B2%A9-%ED%8C%90%EB%8B%A8%ED%91%9C",
+    officialUrl: "https://www.energyv.or.kr/info/support_info.do"
   }
 ];
