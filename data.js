@@ -648,5 +648,15 @@ const benefits = [
     keywords: "에너지바우처 2026 겨울 나도 받을 있을까",
     blogUrl: "https://300md72.com/entry/%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98-2026-%EA%B2%A8%EC%9A%B8-%EB%82%98%EB%8F%84-%EB%B0%9B%EC%9D%84-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C-%EC%9E%90%EA%B2%A9-%ED%8C%90%EB%8B%A8%ED%91%9C",
     officialUrl: "https://www.energyv.or.kr/info/support_info.do"
+  },
+  {
+    title: "천공기운전기능사 자격증, 기능사인데 연봉이 높은 이유",
+    summary: "천공기운전기능사는 학력·경력 제한 없이 누구나 응시할 수 있는 국가기술자격증입니다. 필기·실기 시험 과목과 2022년 기준 합격률, 신입부터 경력자까지의 실제 연봉 수준을 공식 자료 기준으로 정리했습니다.",
+    target: "천공기운전기능사는 학력·경력 제한 없이 누구나 응시할 수 있는 국가기술자격증입니다. 필기·실기 시험 과목과 2022년 기준 합격률, 신입부터 경력자까지의 실제 연봉 수준을 공식 자료 기준으로 정리했습니다.",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "천공기운전기능사 자격증 기능사인데 연봉이 높은 이유",
+    blogUrl: "https://300md72.com/entry/%EC%B2%9C%EA%B3%B5%EA%B8%B0%EC%9A%B4%EC%A0%84%EA%B8%B0%EB%8A%A5%EC%82%AC-%EC%9E%90%EA%B2%A9%EC%A6%9D-%EA%B8%B0%EB%8A%A5%EC%82%AC%EC%9D%B8%EB%8D%B0-%EC%97%B0%EB%B4%89%EC%9D%B4-%EB%86%92%EC%9D%80-%EC%9D%B4%EC%9C%A0",
+    officialUrl: "http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7483"
   }
 ];
