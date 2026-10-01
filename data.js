@@ -658,5 +658,15 @@ const benefits = [
     keywords: "천공기운전기능사 자격증 기능사인데 연봉이 높은 이유",
     blogUrl: "https://300md72.com/entry/%EC%B2%9C%EA%B3%B5%EA%B8%B0%EC%9A%B4%EC%A0%84%EA%B8%B0%EB%8A%A5%EC%82%AC-%EC%9E%90%EA%B2%A9%EC%A6%9D-%EA%B8%B0%EB%8A%A5%EC%82%AC%EC%9D%B8%EB%8D%B0-%EC%97%B0%EB%B4%89%EC%9D%B4-%EB%86%92%EC%9D%80-%EC%9D%B4%EC%9C%A0",
     officialUrl: "http://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7483"
+  },
+  {
+    title: "2027년 공무원 봉급표, 9급 초임 얼마나 오르나",
+    summary: "2027년 공무원 봉급 인상률이 3.9%로 확정 발표됐습니다. 9급 초임 수준과 기본봉급 계산 예시, 확정 봉급표가 언제 고시되는지까지 정리했습니다.",
+    target: "2027년 공무원 봉급 인상률이 3.9%로 확정 발표됐습니다. 9급 초임 수준과 기본봉급 계산 예시, 확정 봉급표가 언제 고시되는지까지 정리했습니다.",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "2027년 공무원 봉급표 9급 초임 얼마나",
+    blogUrl: "https://300md72.com/entry/2027%EB%85%84-%EA%B3%B5%EB%AC%B4%EC%9B%90-%EB%B4%89%EA%B8%89%ED%91%9C-9%EA%B8%89-%EC%B4%88%EC%9E%84-%EC%96%BC%EB%A7%88%EB%82%98-%EC%98%A4%EB%A5%B4%EB%82%98",
+    officialUrl: "https://www.mpm.go.kr/mpm/info/resultPay"
   }
 ];
