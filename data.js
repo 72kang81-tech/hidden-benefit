@@ -668,5 +668,15 @@ const benefits = [
     keywords: "2027년 공무원 봉급표 9급 초임 얼마나",
     blogUrl: "https://300md72.com/entry/2027%EB%85%84-%EA%B3%B5%EB%AC%B4%EC%9B%90-%EB%B4%89%EA%B8%89%ED%91%9C-9%EA%B8%89-%EC%B4%88%EC%9E%84-%EC%96%BC%EB%A7%88%EB%82%98-%EC%98%A4%EB%A5%B4%EB%82%98",
     officialUrl: "https://www.mpm.go.kr/mpm/info/resultPay"
+  },
+  {
+    title: "2026년 기능사 실기 원서접수 10월 12일, 올해 마지막",
+    summary: "2026년 기능사 4회차(올해 마지막 회차) 실기시험 원서접수가 10월 12일부터 15일까지 진행됩니다. 필기 합격자 기준 접수 방법과 시험 일정을 정리했습니다.",
+    target: "2026년 기능사 4회차 필기시험 합격자",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "2026년 기능사 실기 원서접수 10월 12일",
+    blogUrl: "https://300md72.com/entry/2026%EB%85%84-%EA%B8%B0%EB%8A%A5%EC%82%AC-%EC%8B%A4%EA%B8%B0-%EC%9B%90%EC%84%9C%EC%A0%91%EC%88%98-10%EC%9B%94-12%EC%9D%BC-%EC%98%AC%ED%95%B4-%EB%A7%88%EC%A7%80%EB%A7%89",
+    officialUrl: "https://www.q-net.or.kr/man001.do"
   }
 ];
