@@ -698,5 +698,15 @@ const benefits = [
     keywords: "산업안전기사 응시자격과 연봉 지금 따야 하는",
     blogUrl: "https://300md72.com/entry/%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EA%B8%B0%EC%82%AC-%EC%9D%91%EC%8B%9C%EC%9E%90%EA%B2%A9%EA%B3%BC-%EC%97%B0%EB%B4%89-%EC%A7%80%EA%B8%88-%EB%94%B0%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0",
     officialUrl: "https://www.q-net.or.kr"
+  },
+  {
+    title: "대기환경기사 응시자격과 전망, 왜 지금 뜨는가",
+    summary: "대기환경기사는 탄소중립 정책과 ESG 경영 확산으로 관심이 늘고 있는 국가기술자격입니다. 응시자격, 시험구조, 왜 지금 뜨는지, 수질환경기사와의 차이까지 확인했습니다.",
+    target: "대기환경기사는 탄소중립 정책과 ESG 경영 확산으로 관심이 늘고 있는 국가기술자격입니다. 응시자격, 시험구조, 왜 지금 뜨는지, 수질환경기사와의 차이까지 확인했습니다.",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "대기환경기사 응시자격과 전망 지금 뜨는가",
+    blogUrl: "https://300md72.com/entry/%EB%8C%80%EA%B8%B0%ED%99%98%EA%B2%BD%EA%B8%B0%EC%82%AC-%EC%9D%91%EC%8B%9C%EC%9E%90%EA%B2%A9%EA%B3%BC-%EC%A0%84%EB%A7%9D-%EC%99%9C-%EC%A7%80%EA%B8%88-%EB%9C%A8%EB%8A%94%EA%B0%80",
+    officialUrl: "https://www.q-net.or.kr"
   }
 ];
