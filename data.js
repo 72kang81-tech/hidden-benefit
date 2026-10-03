@@ -688,5 +688,15 @@ const benefits = [
     keywords: "청년미래적금 2차 가입신청 대상 혜택 10월",
     blogUrl: "https://300md72.com/entry/%EC%B2%AD%EB%85%84%EB%AF%B8%EB%9E%98%EC%A0%81%EA%B8%88-2%EC%B0%A8-%EA%B0%80%EC%9E%85%EC%8B%A0%EC%B2%AD-%EB%8C%80%EC%83%81%C2%B7%ED%98%9C%ED%83%9D%C2%B710%EC%9B%94-%EC%A0%91%EC%88%98%EC%9D%BC%EC%A0%95-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://fsc.go.kr/no010101/87726"
+  },
+  {
+    title: "산업안전기사 응시자격과 연봉, 지금 따야 하는 이유",
+    summary: "산업안전기사는 중대재해처벌법이 5인 이상 50인 미만 사업장까지 확대되면서 수요가 늘고 있는 국가기술자격입니다. 응시자격, 시험구조, 최근 합격률, 실제 채용공고 기준 연봉 수준까지 확인했습니다.",
+    target: "산업안전기사는 중대재해처벌법이 5인 이상 50인 미만 사업장까지 확대되면서 수요가 늘고 있는 국가기술자격입니다. 응시자격, 시험구조, 최근 합격률, 실제 채용공고 기준 연봉 수준까지 확인했습니다.",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "산업안전기사 응시자격과 연봉 지금 따야 하는",
+    blogUrl: "https://300md72.com/entry/%EC%82%B0%EC%97%85%EC%95%88%EC%A0%84%EA%B8%B0%EC%82%AC-%EC%9D%91%EC%8B%9C%EC%9E%90%EA%B2%A9%EA%B3%BC-%EC%97%B0%EB%B4%89-%EC%A7%80%EA%B8%88-%EB%94%B0%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0",
+    officialUrl: "https://www.q-net.or.kr"
   }
 ];
