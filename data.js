@@ -678,5 +678,15 @@ const benefits = [
     keywords: "2026년 기능사 실기 원서접수 10월 12일",
     blogUrl: "https://300md72.com/entry/2026%EB%85%84-%EA%B8%B0%EB%8A%A5%EC%82%AC-%EC%8B%A4%EA%B8%B0-%EC%9B%90%EC%84%9C%EC%A0%91%EC%88%98-10%EC%9B%94-12%EC%9D%BC-%EC%98%AC%ED%95%B4-%EB%A7%88%EC%A7%80%EB%A7%89",
     officialUrl: "https://www.q-net.or.kr/man001.do"
+  },
+  {
+    title: "청년미래적금 2차 가입신청, 대상·혜택·10월 접수일정 정리",
+    summary: "대상: 만 19~34세(이번 모집 1991.11.17생~2007.11.27생), 총급여 7,500만원 이하 또는 연매출 3억원 이하 + 가구 중위소득 200% 이하",
+    target: "만 19~34세(이번 모집 1991.11.17생~2007.11.27생), 총급여 7,500만원 이하 또는 연매출 3억원 이하 + 가구 중위소득 200% 이하",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "청년미래적금 2차 가입신청 대상 혜택 10월",
+    blogUrl: "https://300md72.com/entry/%EC%B2%AD%EB%85%84%EB%AF%B8%EB%9E%98%EC%A0%81%EA%B8%88-2%EC%B0%A8-%EA%B0%80%EC%9E%85%EC%8B%A0%EC%B2%AD-%EB%8C%80%EC%83%81%C2%B7%ED%98%9C%ED%83%9D%C2%B710%EC%9B%94-%EC%A0%91%EC%88%98%EC%9D%BC%EC%A0%95-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://fsc.go.kr/no010101/87726"
   }
 ];
