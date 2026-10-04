@@ -708,5 +708,15 @@ const benefits = [
     keywords: "대기환경기사 응시자격과 전망 지금 뜨는가",
     blogUrl: "https://300md72.com/entry/%EB%8C%80%EA%B8%B0%ED%99%98%EA%B2%BD%EA%B8%B0%EC%82%AC-%EC%9D%91%EC%8B%9C%EC%9E%90%EA%B2%A9%EA%B3%BC-%EC%A0%84%EB%A7%9D-%EC%99%9C-%EC%A7%80%EA%B8%88-%EB%9C%A8%EB%8A%94%EA%B0%80",
     officialUrl: "https://www.q-net.or.kr"
+  },
+  {
+    title: "연말정산 미리보기 서비스, 2026년 개통 시기와 달라지는 점",
+    summary: "핵심 정리: 연말정산 미리보기 서비스는 그해 1~9월 카드 사용액을 바탕으로 예상 세액을 계산해주는 서비스로, 최근에는 10월 말~11월 초 사이 홈택스에서 열렸습니다(2026년 정확한 날짜는 아직 발표 전).",
+    target: "핵심 정리: 연말정산 미리보기 서비스는 그해 1~9월 카드 사용액을 바탕으로 예상 세액을 계산해주는 서비스로, 최근에는 10월 말~11월 초 사이 홈택스에서 열렸습니다(2026년 정확한 날짜는 아직 발표 전).",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "연말정산 미리보기 서비스 2026년 개통 시기와",
+    blogUrl: "https://300md72.com/entry/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%84%9C%EB%B9%84%EC%8A%A4-2026%EB%85%84-%EA%B0%9C%ED%86%B5-%EC%8B%9C%EA%B8%B0%EC%99%80-%EB%8B%AC%EB%9D%BC%EC%A7%80%EB%8A%94-%EC%A0%90",
+    officialUrl: "https://www.nts.go.kr"
   }
 ];
