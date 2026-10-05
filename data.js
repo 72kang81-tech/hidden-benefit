@@ -718,5 +718,15 @@ const benefits = [
     keywords: "연말정산 미리보기 서비스 2026년 개통 시기와",
     blogUrl: "https://300md72.com/entry/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%84%9C%EB%B9%84%EC%8A%A4-2026%EB%85%84-%EA%B0%9C%ED%86%B5-%EC%8B%9C%EA%B8%B0%EC%99%80-%EB%8B%AC%EB%9D%BC%EC%A7%80%EB%8A%94-%EC%A0%90",
     officialUrl: "https://www.nts.go.kr"
+  },
+  {
+    title: "창업성공패키지(옛 청년창업사관학교) 지원대상과 사업화자금 총정리",
+    summary: "청년창업사관학교가 2026년 '창업성공패키지'로 이름이 바뀌었습니다. 39세 이하 창업 3년(경험창업자는 7년) 이내 대표자가 대상이며, 사업화자금은 평균 0.7억~최대 1억원입니다. 지원대상과 신청방법을 정리했습니다.",
+    target: "만 39세 이하, 일반창업자(창업 후 3년 이내) 또는 경험창업자(창업 후 7년 이내) 대표자",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "창업성공패키지 청년창업사관학교 지원대상과 사업화자금 총정리",
+    blogUrl: "https://300md72.com/entry/%EC%B0%BD%EC%97%85%EC%84%B1%EA%B3%B5%ED%8C%A8%ED%82%A4%EC%A7%80%EC%98%9B-%EC%B2%AD%EB%85%84%EC%B0%BD%EC%97%85%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90-%EC%A7%80%EC%9B%90%EB%8C%80%EC%83%81%EA%B3%BC-%EC%82%AC%EC%97%85%ED%99%94%EC%9E%90%EA%B8%88-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.k-startup.go.kr"
   }
 ];
