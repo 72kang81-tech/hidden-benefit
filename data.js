@@ -728,5 +728,15 @@ const benefits = [
     keywords: "창업성공패키지 청년창업사관학교 지원대상과 사업화자금 총정리",
     blogUrl: "https://300md72.com/entry/%EC%B0%BD%EC%97%85%EC%84%B1%EA%B3%B5%ED%8C%A8%ED%82%A4%EC%A7%80%EC%98%9B-%EC%B2%AD%EB%85%84%EC%B0%BD%EC%97%85%EC%82%AC%EA%B4%80%ED%95%99%EA%B5%90-%EC%A7%80%EC%9B%90%EB%8C%80%EC%83%81%EA%B3%BC-%EC%82%AC%EC%97%85%ED%99%94%EC%9E%90%EA%B8%88-%EC%B4%9D%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.k-startup.go.kr"
+  },
+  {
+    title: "대상 검색 의도와 한도 숫자를 함께 담았어요.",
+    summary: "대상: 훈련을 원하는 누구나(제외 대상 제외)",
+    target: "훈련을 원하는 누구나(제외 대상 제외)",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "대상 검색 의도와 한도 숫자를 함께",
+    blogUrl: "https://300md72.com/entry/%EB%8C%80%EC%83%81-%EA%B2%80%EC%83%89-%EC%9D%98%EB%8F%84%EC%99%80-%ED%95%9C%EB%8F%84-%EC%88%AB%EC%9E%90%EB%A5%BC-%ED%95%A8%EA%BB%98-%EB%8B%B4%EC%95%98%EC%96%B4%EC%9A%94",
+    officialUrl: "https://m.work24.go.kr/hr/h/a/1100/selectIssuGudn.do"
   }
 ];
