@@ -738,5 +738,15 @@ const benefits = [
     keywords: "국민내일배움카드 본인부담금 자부담 계산 훈련비",
     blogUrl: "https://300md72.com/entry/%EB%8C%80%EC%83%81-%EA%B2%80%EC%83%89-%EC%9D%98%EB%8F%84%EC%99%80-%ED%95%9C%EB%8F%84-%EC%88%AB%EC%9E%90%EB%A5%BC-%ED%95%A8%EA%BB%98-%EB%8B%B4%EC%95%98%EC%96%B4%EC%9A%94",
     officialUrl: "https://m.work24.go.kr/hr/h/a/1100/selectIssuGudn.do"
+  },
+  {
+    title: "행정사 2차 합격자 발표일 2026, 합격 기준과 발표 후 할 일",
+    summary: "2026년 제14회 행정사 2차 합격자 발표일(사전공고(안) 12월 16일), 합격 기준 점수 계산, 제13회 합격률 10.43%, 합격 후 실무교육과 업무신고 절차를 한국산업인력공단 자료 기준으로 정리했습니다.",
+    target: "2026년 제14회 행정사 2차 합격자 발표일(사전공고(안) 12월 16일), 합격 기준 점수 계산, 제13회 합격률 10.43%, 합격 후 실무교육과 업무신고 절차를 한국산업인력공단 자료 기준으로 정리했습니다.",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "행정사 2차 합격자 발표일 2026 합격",
+    blogUrl: "https://300md72.com/entry/%ED%96%89%EC%A0%95%EC%82%AC-2%EC%B0%A8-%ED%95%A9%EA%B2%A9%EC%9E%90-%EB%B0%9C%ED%91%9C%EC%9D%BC-2026-%ED%95%A9%EA%B2%A9-%EA%B8%B0%EC%A4%80%EA%B3%BC-%EB%B0%9C%ED%91%9C-%ED%9B%84-%ED%95%A0-%EC%9D%BC",
+    officialUrl: "https://q-net.or.kr/man001.do?gId=31&gSite=L&id="
   }
 ];
