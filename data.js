@@ -748,5 +748,15 @@ const benefits = [
     keywords: "행정사 2차 합격자 발표일 2026 합격",
     blogUrl: "https://300md72.com/entry/%ED%96%89%EC%A0%95%EC%82%AC-2%EC%B0%A8-%ED%95%A9%EA%B2%A9%EC%9E%90-%EB%B0%9C%ED%91%9C%EC%9D%BC-2026-%ED%95%A9%EA%B2%A9-%EA%B8%B0%EC%A4%80%EA%B3%BC-%EB%B0%9C%ED%91%9C-%ED%9B%84-%ED%95%A0-%EC%9D%BC",
     officialUrl: "https://q-net.or.kr/man001.do?gId=31&gSite=L&id="
+  },
+  {
+    title: "실업급여 조건 2026, 받을 수 있는 경우와 못 받는 경우 정리",
+    summary: "이직 전 18개월 중 180일 이상 가입하고 비자발적으로 이직하면 받을 수 있어요. 하루 상한 6만 8,100원, 120~270일.",
+    target: "이직 전 18개월 중 고용보험 가입 180일 이상, 폐업·권고사직·계약만료 등으로 비자발적 이직 후 재취업 활동을 하는 분(정당한 사유가 있는 자발적 퇴사는 고용센터 판단)",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "실업급여 조건 2026 구직급여 받을 수 있는 경우 못 받는 경우 신청방법",
+    blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC-%EC%A1%B0%EA%B1%B4-2026-%EB%B0%9B%EC%9D%84-%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B2%BD%EC%9A%B0%EC%99%80-%EB%AA%BB-%EB%B0%9B%EB%8A%94-%EA%B2%BD%EC%9A%B0-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/SD0000015536"
   }
 ];
