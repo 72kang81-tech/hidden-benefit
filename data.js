@@ -758,5 +758,15 @@ const benefits = [
     keywords: "실업급여 조건 2026 구직급여 받을 수 있는 경우 못 받는 경우 신청방법",
     blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC-%EC%A1%B0%EA%B1%B4-2026-%EB%B0%9B%EC%9D%84-%EC%88%98-%EC%9E%88%EB%8A%94-%EA%B2%BD%EC%9A%B0%EC%99%80-%EB%AA%BB-%EB%B0%9B%EB%8A%94-%EA%B2%BD%EC%9A%B0-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/SD0000015536"
+  },
+  {
+    title: "지게차자격증 따는 순서, 지게차운전기능사 비용과 합격률 정리",
+    summary: "지게차자격증을 따는 순서를 정리했습니다. 3톤 이상은 지게차운전기능사, 3톤 미만은 12시간 교육 길이 있고, 응시료는 필기 14,500원·실기 25,200원이며 2025년 합격률은 필기 73.6%, 실기 47.9%입니다.",
+    target: "지게차자격증을 따는 순서를 정리했습니다. 3톤 이상은 지게차운전기능사, 3톤 미만은 12시간 교육 길이 있고, 응시료는 필기 14,500원·실기 25,200원이며 2025년 합격률은 필기 73.6%, 실기 47.9%입니다.",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "지게차자격증 따는 순서 지게차운전기능사 비용과 합격률",
+    blogUrl: "https://300md72.com/entry/%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%9E%90%EA%B2%A9%EC%A6%9D-%EB%94%B0%EB%8A%94-%EC%88%9C%EC%84%9C-%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%9A%B4%EC%A0%84%EA%B8%B0%EB%8A%A5%EC%82%AC-%EB%B9%84%EC%9A%A9%EA%B3%BC-%ED%95%A9%EA%B2%A9%EB%A5%A0-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7875"
   }
 ];
