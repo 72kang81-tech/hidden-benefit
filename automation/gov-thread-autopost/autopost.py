@@ -2,7 +2,8 @@
 """
 매시간 실행되는 정부지원금 블로그 → 쓰레드 자동 게시 스크립트.
 
-흐름 (2026-10-16 변경: 카드 사진을 붙여 올리도록 2단계로 바뀜):
+흐름 (2026-10-16 변경: 사진을 붙여 올리도록 바뀜. 블로그 글의 첫 사진이 있으면 바로 붙여 올리고,
+없을 때만 카드 사진이 만들어질 때까지 기다렸다가 올린다):
   1. 블로그 RSS(300md72.com/rss)에서 최신 글 1건을 가져온다.
   2. state.json에 기록된 last_processed_link와 비교해서 새 글인지 확인한다.
   3-a. 새 글을 처음 본 실행: 올리지 않고 state.json의 pending에 "대기" 표시만 한다.
@@ -117,7 +118,11 @@ def get_latest_post():
         meta = re.sub(r"<[^>]+>", "", p_match.group(1)).strip() if p_match else ""
         meta = meta[:150]
 
-    return {"title": title, "link": link, "meta": meta}
+    # 글 본문의 첫 번째 사진(블로그에 올린 사진)을 쓰레드 사진으로 쓴다.
+    img_match = re.search(r'<img[^>]+src="([^"]+)"', description)
+    image = img_match.group(1) if img_match else None
+
+    return {"title": title, "link": link, "meta": meta, "image": image}
 
 
 def pick_index(total, last_index):
@@ -314,8 +319,16 @@ def main():
         save_state(state)
         return
 
+    if not pending and post.get("image"):
+        # 블로그 글 안의 첫 사진을 바로 붙여 올린다(기다릴 필요 없음). 사진 게시가 실패하면
+        # publish_post 안에서 글자만 올리는 쪽으로 넘어간다.
+        log(f"새 글 감지(블로그 사진으로 바로 게시): {post['title']}")
+        publish_post(user_id, token, state, post, post["image"])
+        return
+
     if not pending:
-        # 새 글을 처음 본 시점: 카드 사진은 이번 실행 뒤쪽 단계(benefit 카드 연동·빌드)에서
+        # 새 글에 쓸 블로그 사진이 없을 때만 이 단계로 온다. 새 글을 처음 본 시점:
+        # 카드 사진은 이번 실행 뒤쪽 단계(benefit 카드 연동·빌드)에서
         # 만들어지므로, 지금은 올리지 않고 대기 표시만 해 둔다. 다음 실행에서 사진과 함께 올린다.
         log(f"새 글 감지(카드 사진 준비를 기다립니다): {post['title']}")
         state["pending"] = {
