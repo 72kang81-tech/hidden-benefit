@@ -768,5 +768,15 @@ const benefits = [
     keywords: "지게차자격증 따는 순서 지게차운전기능사 비용과 합격률",
     blogUrl: "https://300md72.com/entry/%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%9E%90%EA%B2%A9%EC%A6%9D-%EB%94%B0%EB%8A%94-%EC%88%9C%EC%84%9C-%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%9A%B4%EC%A0%84%EA%B8%B0%EB%8A%A5%EC%82%AC-%EB%B9%84%EC%9A%A9%EA%B3%BC-%ED%95%A9%EA%B2%A9%EB%A5%A0-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://www.q-net.or.kr/crf005.do?id=crf00503&jmCd=7875"
+  },
+  {
+    title: "실업급여와 국민취업지원제도 차이, 중복 수급은 되나요? 2026",
+    summary: "실업급여와 국민취업지원제도 차이를 고용24 안내로 정리했습니다. 실업급여를 받는 중에는 참여할 수 없고, 수급이 끝난 뒤 Ⅱ유형은 바로, Ⅰ유형은 6개월 뒤 참여할 수 있습니다. 금액과 신청 방법도 비교했습니다.",
+    target: "실업급여와 국민취업지원제도 차이를 고용24 안내로 정리했습니다. 실업급여를 받는 중에는 참여할 수 없고, 수급이 끝난 뒤 Ⅱ유형은 바로, Ⅰ유형은 6개월 뒤 참여할 수 있습니다. 금액과 신청 방법도 비교했습니다.",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "실업급여와 국민취업지원제도 차이 중복 수급은 되나요",
+    blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC%EC%99%80-%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84-%EC%B0%A8%EC%9D%B4-%EC%A4%91%EB%B3%B5-%EC%88%98%EA%B8%89%EC%9D%80-%EB%90%98%EB%82%98%EC%9A%94-2026",
+    officialUrl: "https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do"
   }
 ];
