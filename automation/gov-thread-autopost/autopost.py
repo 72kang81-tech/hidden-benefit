@@ -2,15 +2,15 @@
 """
 매시간 실행되는 정부지원금 블로그 → 쓰레드 자동 게시 스크립트.
 
-흐름:
+흐름 (2026-10-16 변경: 카드 사진을 붙여 올리도록 2단계로 바뀜):
   1. 블로그 RSS(300md72.com/rss)에서 최신 글 1건을 가져온다.
   2. state.json에 기록된 last_processed_link와 비교해서 새 글인지 확인한다.
-  3. 새 글이면 RSS 안의 메타디스크립션(gov-support-blog-editor 스킬이 HTML 안에
-     <!-- 메타디스크립션: ... --> 형태로 심어둔 요약 문장)을 뽑아서, 미리 준비된
-     여러 템플릿 중 하나(직전 실행과 겹치지 않게 순환)로 쓰레드 본문 + 고정 댓글을 만든다.
-  4. Threads API로 본문을 게시하고, 이어서 고정 댓글(블로그 글 링크 + benefit.300md72.com
-     링크 둘 다 포함)을 답글로 게시한다.
-  5. 처리 결과를 state.json에 기록한다. 이 파일은 워크플로우가 커밋해서 저장소에 반영한다.
+  3-a. 새 글을 처음 본 실행: 올리지 않고 state.json의 pending에 "대기" 표시만 한다.
+       (같은 실행의 뒷 단계에서 benefit 카드가 만들어지고 사이트에 올라간다.)
+  3-b. 다음 실행: social/ 폴더에 카드 사진(PNG)이 있고 사이트에서 실제로 열리면,
+       그 사진을 붙여 쓰레드 본문 + 고정 댓글을 올린다. 사진이 MAX_WAIT_HOURS 시간이
+       넘도록 준비되지 않으면 예전처럼 글자만 올린다.
+  4. 처리 결과를 state.json에 기록한다. 이 파일은 워크플로우가 커밋해서 저장소에 반영한다.
 
 사람의 확인(승인) 절차 없이 완전 자동으로 게시된다 — 이건 사용자가 명시적으로
 선택한 방식이다. 문구는 AI가 매번 새로 짓는 게 아니라 정해진 템플릿을 순환시키는
@@ -21,6 +21,8 @@
 benefit.300md72.com 링크를 항상 둘 다 넣는다 — 블로그 링크만 있고 베네핏 링크가
 빠지면 안 된다.
 """
+import glob
+import hashlib
 import html
 import json
 import os
@@ -206,6 +208,84 @@ def get_permalink(media_id, token):
         return None
 
 
+
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+SOCIAL_DIR = os.path.join(REPO_ROOT, "social")
+SOCIAL_BASE_URL = "https://benefit.300md72.com/social/"
+# 카드 사진이 이 시간(시간 단위)을 넘도록 준비되지 않으면 사진 없이 글자만 올린다.
+MAX_WAIT_HOURS = 3
+
+
+def find_card_image_url(link):
+    """build-social이 만든 카드 PNG(social/<제목>-<sha1(블로그주소) 앞 7자>.png)를 찾아
+    실제 사이트에서 열리는지 확인한 뒤 주소를 돌려준다. 없으면 None."""
+    suffix = "-" + hashlib.sha1(link.encode("utf-8")).hexdigest()[:7] + ".png"
+    for path in glob.glob(os.path.join(SOCIAL_DIR, "*" + suffix)):
+        name = os.path.basename(path)
+        url = SOCIAL_BASE_URL + urllib.parse.quote(name)
+        try:
+            req = urllib.request.Request(
+                url, method="HEAD", headers={"User-Agent": "Mozilla/5.0 (gov-thread-autopost bot)"}
+            )
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                if resp.status == 200 and "image" in (resp.headers.get("content-type") or ""):
+                    return url
+        except Exception as e:
+            log(f"카드 사진 주소 확인 실패: {e}")
+    return None
+
+
+def create_image_container(user_id, token, text, image_url):
+    params = {"media_type": "IMAGE", "image_url": image_url, "text": text, "access_token": token}
+    data = urllib.parse.urlencode(params).encode()
+    status, body = fetch(f"{API_BASE}/{user_id}/threads", data=data, method="POST")
+    result = json.loads(body)
+    if "id" not in result:
+        raise RuntimeError(f"create_image_container 실패: {result}")
+    return result["id"]
+
+
+def publish_post(user_id, token, state, post, image_url):
+    """본문(사진 있으면 사진 포함) + 고정 댓글을 올리고 state에 기록한다."""
+    body, reply, body_idx, reply_idx, tag_idx = build_texts(post, state)
+
+    posted = False
+    if image_url:
+        try:
+            creation_id = create_image_container(user_id, token, body, image_url)
+            wait_until_ready(creation_id, token)
+            post_id = publish_container(user_id, token, creation_id)
+            posted = True
+        except Exception as e:
+            log(f"사진 게시 실패, 글자만 올립니다: {e}")
+    if not posted:
+        creation_id = create_container(user_id, token, body)
+        wait_until_ready(creation_id, token)
+        post_id = publish_container(user_id, token, creation_id)
+    permalink = get_permalink(post_id, token)
+    log(f"본문 게시 완료({'사진 포함' if posted else '글자만'}): {permalink or post_id}")
+
+    # 본문 게시는 성공했으니, 다음 실행에서 중복 게시되지 않도록 여기서 바로 state를 저장한다.
+    state["last_processed_link"] = post["link"]
+    state["last_processed_title"] = post["title"]
+    state["last_thread_permalink"] = permalink
+    state["last_body_template"] = body_idx
+    state["last_tag_set"] = tag_idx
+    state["pending"] = None
+    save_state(state)
+
+    try:
+        time.sleep(3)
+        reply_creation_id = create_container(user_id, token, reply, reply_to_id=post_id)
+        wait_until_ready(reply_creation_id, token)
+        reply_id = publish_container(user_id, token, reply_creation_id)
+        log(f"고정 댓글 게시 완료: {reply_id}")
+        state["last_reply_template"] = reply_idx
+        save_state(state)
+    except Exception as e:
+        log(f"고정 댓글 게시 실패(본문은 이미 게시됨, 댓글만 누락): {e}")
+
+
 def main():
     token = os.environ.get("THREADS_ACCESS_TOKEN")
     user_id = os.environ.get("THREADS_USER_ID")
@@ -219,41 +299,43 @@ def main():
         log("RSS에서 글을 찾지 못했습니다.")
         sys.exit(0)
 
-    state["last_checked_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    now = time.time()
+    state["last_checked_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(now))
+    pending = state.get("pending")
+
+    # 대기 중인 글이 있는데 더 새 글이 올라왔다면, 대기 글은 사진 없이 먼저 올린다.
+    if pending and pending.get("link") != post["link"]:
+        log(f"대기 글을 사진 없이 먼저 게시: {pending.get('title')}")
+        publish_post(user_id, token, state, pending, None)
+        pending = None
 
     if post["link"] == state.get("last_processed_link"):
         log("새 글 없음 — 이미 처리한 글과 동일.")
         save_state(state)
         return
 
-    log(f"새 글 감지: {post['title']}")
-    body, reply, body_idx, reply_idx, tag_idx = build_texts(post, state)
-
-    creation_id = create_container(user_id, token, body)
-    wait_until_ready(creation_id, token)
-    post_id = publish_container(user_id, token, creation_id)
-    permalink = get_permalink(post_id, token)
-    log(f"본문 게시 완료: {permalink or post_id}")
-
-    # 본문 게시는 성공했으니, 다음 실행에서 중복 게시되지 않도록 여기서 바로 state를 저장한다.
-    state["last_processed_link"] = post["link"]
-    state["last_processed_title"] = post["title"]
-    state["last_thread_permalink"] = permalink
-    state["last_body_template"] = body_idx
-    state["last_tag_set"] = tag_idx
-    save_state(state)
-
-    try:
-        time.sleep(3)
-        reply_creation_id = create_container(user_id, token, reply, reply_to_id=post_id)
-        wait_until_ready(reply_creation_id, token)
-        reply_id = publish_container(user_id, token, reply_creation_id)
-        log(f"고정 댓글 게시 완료: {reply_id}")
-        state["last_reply_template"] = reply_idx
+    if not pending:
+        # 새 글을 처음 본 시점: 카드 사진은 이번 실행 뒤쪽 단계(benefit 카드 연동·빌드)에서
+        # 만들어지므로, 지금은 올리지 않고 대기 표시만 해 둔다. 다음 실행에서 사진과 함께 올린다.
+        log(f"새 글 감지(카드 사진 준비를 기다립니다): {post['title']}")
+        state["pending"] = {
+            "link": post["link"],
+            "title": post["title"],
+            "meta": post["meta"],
+            "first_seen": now,
+        }
         save_state(state)
-    except Exception as e:
-        log(f"고정 댓글 게시 실패(본문은 이미 게시됨, 댓글만 누락): {e}")
-        # 본문은 성공했으므로 실패로 종료하지 않는다 — 워크플로우는 정상 종료.
+        return
+
+    image_url = find_card_image_url(post["link"])
+    waited_hours = (now - float(pending.get("first_seen", now))) / 3600
+    if image_url is None and waited_hours < MAX_WAIT_HOURS:
+        log(f"카드 사진이 아직 준비되지 않았습니다({waited_hours:.1f}시간 대기). 다음 실행에서 다시 확인합니다.")
+        save_state(state)
+        return
+
+    log(f"게시 시작: {post['title']} (사진: {'있음' if image_url else '없음'})")
+    publish_post(user_id, token, state, post, image_url)
 
 
 if __name__ == "__main__":
