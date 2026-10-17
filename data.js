@@ -778,5 +778,15 @@ const benefits = [
     keywords: "실업급여와 국민취업지원제도 차이 중복 수급은 되나요",
     blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC%EC%99%80-%EA%B5%AD%EB%AF%BC%EC%B7%A8%EC%97%85%EC%A7%80%EC%9B%90%EC%A0%9C%EB%8F%84-%EC%B0%A8%EC%9D%B4-%EC%A4%91%EB%B3%B5-%EC%88%98%EA%B8%89%EC%9D%80-%EB%90%98%EB%82%98%EC%9A%94-2026",
     officialUrl: "https://www.work24.go.kr/ua/z/z/1300/selectEmssRqutIntro.do"
+  },
+  {
+    title: "실업급여 계산 방법 2026, 하루 얼마·며칠 받는지 예시로 계산",
+    summary: "실업급여 계산 방법 2026년 기준으로 하루 지급액(평균임금의 60%, 상한 6만 8,100원·하한 6만 6,048원)과 지급 일수를 월급 예시로 직접 계산해 보고, 모의계산 공식 페이지 확인 방법까지 정리했습니다.",
+    target: "실업급여 계산 방법 2026년 기준으로 하루 지급액(평균임금의 60%, 상한 6만 8,100원·하한 6만 6,048원)과 지급 일수를 월급 예시로 직접 계산해 보고, 모의계산 공식 페이지 확인 방법까지 정리했습니다.",
+    category: "의료비",
+    status: "현재 확인 가능",
+    keywords: "실업급여 계산 방법 2026 하루 얼마",
+    blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC-%EA%B3%84%EC%82%B0-%EB%B0%A9%EB%B2%95-2026-%ED%95%98%EB%A3%A8-%EC%96%BC%EB%A7%88%C2%B7%EB%A9%B0%EC%B9%A0-%EB%B0%9B%EB%8A%94%EC%A7%80-%EC%98%88%EC%8B%9C%EB%A1%9C-%EA%B3%84%EC%82%B0",
+    officialUrl: "https://edrm.ei.go.kr/ei/eim/eg/ei/eiEminsr/retrievePb0201Info.do"
   }
 ];
