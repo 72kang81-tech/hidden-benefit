@@ -788,5 +788,15 @@ const benefits = [
     keywords: "실업급여 계산 방법 2026 하루 얼마",
     blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC-%EA%B3%84%EC%82%B0-%EB%B0%A9%EB%B2%95-2026-%ED%95%98%EB%A3%A8-%EC%96%BC%EB%A7%88%C2%B7%EB%A9%B0%EC%B9%A0-%EB%B0%9B%EB%8A%94%EC%A7%80-%EC%98%88%EC%8B%9C%EB%A1%9C-%EA%B3%84%EC%82%B0",
     officialUrl: "https://edrm.ei.go.kr/ei/eim/eg/ei/eiEminsr/retrievePb0201Info.do"
+  },
+  {
+    title: "퇴직금 지급 기준 2026, 받는 조건·계산 방법·언제 받나 예시로 정리",
+    summary: "퇴직금 지급 기준 2026, 1년 이상 일하고 주 15시간 이상이면 받습니다. 퇴직금 계산 방법(평균임금×30일×근속연수)을 월급 예시로 풀고, 퇴직 후 14일 안에 받는 기한과 1년 미만 근무자 기준까지 쉽게 정리했어요.",
+    target: "퇴직금 지급 기준 2026, 1년 이상 일하고 주 15시간 이상이면 받습니다. 퇴직금 계산 방법(평균임금×30일×근속연수)을 월급 예시로 풀고, 퇴직 후 14일 안에 받는 기한과 1년 미만 근무자 기준까지 쉽게 정리했어요.",
+    category: "금융·생활비",
+    status: "현재 확인 가능",
+    keywords: "퇴직금 지급 기준 2026 받는 조건",
+    blogUrl: "https://300md72.com/entry/%ED%87%B4%EC%A7%81%EA%B8%88-%EC%A7%80%EA%B8%89-%EA%B8%B0%EC%A4%80-2026-%EB%B0%9B%EB%8A%94-%EC%A1%B0%EA%B1%B4%C2%B7%EA%B3%84%EC%82%B0-%EB%B0%A9%EB%B2%95%C2%B7%EC%96%B8%EC%A0%9C-%EB%B0%9B%EB%82%98-%EC%98%88%EC%8B%9C%EB%A1%9C-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=999&ccfNo=3&cciNo=1&cnpClsNo=2"
   }
 ];
