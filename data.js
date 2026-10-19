@@ -798,5 +798,15 @@ const benefits = [
     keywords: "퇴직금 지급 기준 2026 받는 조건",
     blogUrl: "https://300md72.com/entry/%ED%87%B4%EC%A7%81%EA%B8%88-%EC%A7%80%EA%B8%89-%EA%B8%B0%EC%A4%80-2026-%EB%B0%9B%EB%8A%94-%EC%A1%B0%EA%B1%B4%C2%B7%EA%B3%84%EC%82%B0-%EB%B0%A9%EB%B2%95%C2%B7%EC%96%B8%EC%A0%9C-%EB%B0%9B%EB%82%98-%EC%98%88%EC%8B%9C%EB%A1%9C-%EC%A0%95%EB%A6%AC",
     officialUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=999&ccfNo=3&cciNo=1&cnpClsNo=2"
+  },
+  {
+    title: "실업급여 신청 방법 2026, 이직확인서부터 첫 입금까지 순서대로",
+    summary: "실업급여 신청 방법 2026, 회사의 이직확인서 처리부터 고용24 구직등록, 수급자격 인정 신청, 실업인정, 입금까지 순서대로 정리했어요. 준비물과 온라인으로 먼저 낼 수 있는 경우, 신청 기한도 함께 확인하세요.",
+    target: "실업급여 신청 방법 2026, 회사의 이직확인서 처리부터 고용24 구직등록, 수급자격 인정 신청, 실업인정, 입금까지 순서대로 정리했어요. 준비물과 온라인으로 먼저 낼 수 있는 경우, 신청 기한도 함께 확인하세요.",
+    category: "창업·취업",
+    status: "현재 확인 가능",
+    keywords: "실업급여 신청 방법 2026 이직확인서부터 입금까지",
+    blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC-%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95-2026-%EC%9D%B4%EC%A7%81%ED%99%95%EC%9D%B8%EC%84%9C%EB%B6%80%ED%84%B0-%EC%B2%AB-%EC%9E%85%EA%B8%88%EA%B9%8C%EC%A7%80-%EC%88%9C%EC%84%9C%EB%8C%80%EB%A1%9C",
+    officialUrl: "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000411&systCnntId=&systClId=SC00000254"
   }
 ];
