@@ -808,5 +808,15 @@ const benefits = [
     keywords: "실업급여 신청 방법 2026 이직확인서부터 입금까지",
     blogUrl: "https://300md72.com/entry/%EC%8B%A4%EC%97%85%EA%B8%89%EC%97%AC-%EC%8B%A0%EC%B2%AD-%EB%B0%A9%EB%B2%95-2026-%EC%9D%B4%EC%A7%81%ED%99%95%EC%9D%B8%EC%84%9C%EB%B6%80%ED%84%B0-%EC%B2%AB-%EC%9E%85%EA%B8%88%EA%B9%8C%EC%A7%80-%EC%88%9C%EC%84%9C%EB%8C%80%EB%A1%9C",
     officialUrl: "https://m.work24.go.kr/cm/c/f/1100/selecSystInfo.do?systId=SI00000411&systCnntId=&systClId=SC00000254"
+  },
+  {
+    title: "퇴직연금 DC형이란? DB형 차이, 중도인출, 받는 방법 2026 정리",
+    summary: "퇴직연금 DC형이 무엇인지, DB형과 뭐가 다른지 쉽게 정리했어요. 회사가 넣는 돈(연간 임금총액의 12분의 1 이상), 직접 운용하는 방법, 중도인출 가능한 경우, 연금으로 받을 때 세금까지 확인하세요.",
+    target: "퇴직연금 DC형이 무엇인지, DB형과 뭐가 다른지 쉽게 정리했어요. 회사가 넣는 돈(연간 임금총액의 12분의 1 이상), 직접 운용하는 방법, 중도인출 가능한 경우, 연금으로 받을 때 세금까지 확인하세요.",
+    category: "주거",
+    status: "현재 확인 가능",
+    keywords: "퇴직연금 DC형이란 DB형 차이 중도인출 받는",
+    blogUrl: "https://300md72.com/entry/%ED%87%B4%EC%A7%81%EC%97%B0%EA%B8%88-DC%ED%98%95%EC%9D%B4%EB%9E%80-DB%ED%98%95-%EC%B0%A8%EC%9D%B4-%EC%A4%91%EB%8F%84%EC%9D%B8%EC%B6%9C-%EB%B0%9B%EB%8A%94-%EB%B0%A9%EB%B2%95-2026-%EC%A0%95%EB%A6%AC",
+    officialUrl: "https://easylaw.go.kr/CSP/CnpClsMain.laf?popMenu=ov&csmSeq=2056&ccfNo=3&cciNo=1&cnpClsNo=1"
   }
 ];
